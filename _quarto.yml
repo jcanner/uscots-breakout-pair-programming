@@ -35,7 +35,7 @@ website:
         contents:
           - href: 
             text: Overview
-          - href: group-tasks/week-1/broken-circle.qmd
+          - href: group-tasks/week-1/broken-circles.qmd
             text: "Broken Circles" 
           - href: group-tasks/pair-programming-norms.qmd
             text: "Peer Programming Protocol"
