@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "group-tasks/week-3/PA-3-dplyr.html",
+    "href": "group-tasks/week-3/PA-3-dplyr.html",
+    "title": "PA 5: Identify the Mystery College 🏫",
+    "section": "",
+    "text": "Today you will use the dplyr package to clean some data. We will then use that cleaned data to figure out what college Ephelia has been accepted to.\nThis task is complex. It requires many different types of abilities. Everyone will be good at some of these abilities but nobody will be good at all of them. In order to produce the best product possible, you will need to use the skills of each member of your group."
+  },
+  {
+    "objectID": "group-tasks/week-3/PA-3-dplyr.html#data-download-package-loading",
+    "href": "group-tasks/week-3/PA-3-dplyr.html#data-download-package-loading",
+    "title": "PA 5: Identify the Mystery College 🏫",
+    "section": "Data Download & Package Loading",
+    "text": "Data Download & Package Loading\nFirst, we declare our package dependencies and load the data.\nThe data loading function read_csv() will give you an outpouring of helpful information about the dataset. If you do not see the word “error”, there is nothing to be concerned about.\n\nlibrary(tidyverse)\n\ncolleges &lt;- read_csv(\"https://www.dropbox.com/s/bt5hvctdevhbq6j/colleges.csv?dl=1\")\n\nTake a look at the variables in your downloaded data by running the following code. This tells reports the data type for each column in the dataset.\n\nglimpse(colleges)"
+  },
+  {
+    "objectID": "group-tasks/week-3/PA-3-dplyr.html#data-cleaning",
+    "href": "group-tasks/week-3/PA-3-dplyr.html#data-cleaning",
+    "title": "PA 5: Identify the Mystery College 🏫",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nNow we will clean the data. Alas, each of the R chunks in this section will cause an error and / or do the desired task incorrectly. Even the chunks that run without error are not correct! You will need to find the mistake and correct it to complete the intended action.\nStep 1: There are too many variables in this data set. We don’t need all of them. Narrow your data set down to only:\n\nINSTNM name of the institution\nCITY city, STABBR state, and ZIP ZIP code of the institution\nADM_RATE admissions rate\nSAT_AVG average SAT score\nUGDS number of undergraduate students\nTUITIONFEE_IN in- and TUITIONFEE_OUT out-of-state tuition\nCONTROL Whether the school is public or private\nREGION region of the school.\n\n\ncolleges_clean1 &lt;- colleges | &gt;  \n  select(INSTNM, \n         CITY, \n         STABBR, \n         ZIP,\n         ADM_RATE, \n         SAT_AVG, \n         UGDS,\n         TUITIONFEE_IN, \n         TUITIONFEE_OUT\n         CONTROL,\n         REGION) \n\nStep 2: Remove the schools that are private and for-profit (category 3).\n\ncolleges_clean2 &lt;- colleges_clean1 |&gt; \n  filter(CONTROL == 3)\n\nStep 3: Adjust the appropriate variables to be numeric, using as.numeric().\n\ncolleges_clean3 &lt;- colleges_clean2 |&gt; \n  mutate(TUITIONFEE_IN  = numeric(TUITIONFEE_IN),\n         TUITIONFEE_OUT = numeric(TUITIONFEE_OUT),\n         SAT_AVG        = numeric(SAT_AVG),\n         UGDS           = numeric(UGDS),\n         ADM_RATE       = numeric(ADM_RATE)) \n\n\nStep 4: Adjust the appropriate variables to be factors, using as.factor().\n\ncolleges_clean4 &lt;- colleges_clean3 |&gt;\n  mutate(CONTROL = as.character(CONTROL),\n         REGION  = as.character(REGION))\n\nStep 5: Create a new variable called TUITION_DIFF which contains the difference between out-of-state and in-state costs.\n\ncolleges_clean5 &lt;- colleges_clean4 |&gt; \n    TUITION_DIFF = TUITIONFEE_OUT - TUITIONFEE_IN\n\nStep 6: Remove every row with missing data.\n\ncolleges_clean6 &lt;- colleges_clean5 |&gt; \n  drop.na()\n\nAt this point we’ve made six different datasets, but notice each of these steps started with colleges_clean &lt;- colleges_clean |&gt;. That is pretty redundant! Instead, we could have performed all these tasks as one long “pipeline.”\nStep 7: Combine your (fixed) code chunks into a single code chunk that carries out all of the steps necessary to clean the data.\nThink about coding efficiency – you should not have multiple calls to the same function!\n\n# Code combining ALL of your previous steps into ONE pipeline\n\ncolleges_clean &lt;- colleges |&gt;"
+  },
+  {
+    "objectID": "group-tasks/week-1/broken-circles.html",
+    "href": "group-tasks/week-1/broken-circles.html",
+    "title": "Broken Circles",
+    "section": "",
+    "text": "This activity is designed to explore how working in groups can be more or less successful."
+  },
+  {
+    "objectID": "group-tasks/week-1/broken-circles.html#instructions",
+    "href": "group-tasks/week-1/broken-circles.html#instructions",
+    "title": "Broken Circles",
+    "section": "Instructions",
+    "text": "Instructions\nThe class will divide into groups of six (6) students. Each of you will be given an envelope with 2-3 pieces of a circle. The goal of this exercise is to put these pieces together in such a way that each member of your group ends up with a complete circle. However, there are a few additional rules to keep things fun:\n\nThis exercise must be done in complete silence. No talking is permitted.\nYou may not point or signal to other players with your hands in any way.\nEach player must put together their own circle. No one else may show a player how to assemble their circle or do it for them.\nThis is an exercise in giving. You may not take a piece from another player, but you may give your pieces—one at a time—to any other member of your group, and members of your group may give pieces to you. As per the previous rule, you may not place a piece in another person’s puzzle; players must complete their own puzzle. Instead, you are expected to hand the piece to the other player."
+  },
+  {
+    "objectID": "group-tasks/week-1/broken-circles.html#getting-started",
+    "href": "group-tasks/week-1/broken-circles.html#getting-started",
+    "title": "Broken Circles",
+    "section": "Getting Started",
+    "text": "Getting Started\nNow that you know the rules, let’s get started! Take the pieces out of your envelope and place them in front of you. Remember, this is a group task. The activity is not completed until everyone in your group has a completed circle in front of them.\nYou have 10-minutes to make your circles. When your group has finished, raise your hand. If you have time remaining, I may ask you to find another way to put the pieces together to form different circles."
+  },
+  {
+    "objectID": "group-tasks/week-1/broken-circles.html#discussion",
+    "href": "group-tasks/week-1/broken-circles.html#discussion",
+    "title": "Broken Circles",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat do you think this game was about? What was its purpose?\nWhat did your group did that made you cooperate more successfully?\nWhat did your group did that made cooperation harder?\nWhat are some behaviors that could be implemented in the future to make cooperation easier?"
+  },
+  {
+    "objectID": "group-tasks/pair-programming-norms.html",
+    "href": "group-tasks/pair-programming-norms.html",
+    "title": "Pair Programming Roles",
+    "section": "",
+    "text": "During our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles every 2-3 minutes:",
+    "crumbs": [
+      "Breakout Session Activities",
+      "Peer Programming Protocol"
+    ]
+  },
+  {
+    "objectID": "group-tasks/pair-programming-norms.html#group-norms",
+    "href": "group-tasks/pair-programming-norms.html#group-norms",
+    "title": "Pair Programming Roles",
+    "section": "Group Norms",
+    "text": "Group Norms\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!",
+    "crumbs": [
+      "Breakout Session Activities",
+      "Peer Programming Protocol"
+    ]
+  },
+  {
+    "objectID": "group-tasks/pair-programming-norms.html#completing-the-task",
+    "href": "group-tasks/pair-programming-norms.html#completing-the-task",
+    "title": "Pair Programming Roles",
+    "section": "Completing the Task",
+    "text": "Completing the Task\nWorking with your partner, complete the Practice Activity in the Quarto document provided. In your roles—Coder and Developer—use the prompts below to help guide the completion of your activity.\n\n\nCoder\nI am looking for…\nI am confused by…\nI notice…\nWhat might be true is…\nWhat’s important is…\nI predict…\nThis reminds me of…\nWhat if we…\nWe could try…\nI am thinking about…\nA line of code I could write is…\n\n\n\nDeveloper\n\nDo you understand what we need to do?\nWhat’s the question we have for Dr. Theobold? Can we answer the question ourselves?\nWhat are you focusing on?\nWhat are you thinking now?\nCould you tell me more?\nWhat are you doing (or writing) now? Please elaborate.\nI can’t follow that, run that by me again.\n What other sources of information do we need?\nWhich words should we look up?\nWhat else do we need to complete this problem?",
+    "crumbs": [
+      "Breakout Session Activities",
+      "Peer Programming Protocol"
+    ]
+  },
+  {
+    "objectID": "group-tasks/pair-programming-norms.html#once-youre-finished",
+    "href": "group-tasks/pair-programming-norms.html#once-youre-finished",
+    "title": "Pair Programming Roles",
+    "section": "Once You’re Finished",
+    "text": "Once You’re Finished\nAt the end of the task, your group will have one completed Quarto document and one rendered HTML, containing your groups’ worked-out solutions and justifications. Everyone must take turns writing the final product (as described above) and everyone must be able to explain every line of code in your final document.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "Peer Programming Protocol"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "USCOTS 2025 Breakout Session: Research-based practices for integrating pair programming in the classroom",
+    "section": "",
+    "text": "Location: Gerdin 0129, Iowa State University\nDate: Friday, July 18, 2025\nTime: 2:45pm - 4:00pm CT"
+  },
+  {
+    "objectID": "index.html#details",
+    "href": "index.html#details",
+    "title": "USCOTS 2025 Breakout Session: Research-based practices for integrating pair programming in the classroom",
+    "section": "",
+    "text": "Location: Gerdin 0129, Iowa State University\nDate: Friday, July 18, 2025\nTime: 2:45pm - 4:00pm CT"
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "USCOTS 2025 Breakout Session: Research-based practices for integrating pair programming in the classroom",
+    "section": "Description",
+    "text": "Description\nSTEM classrooms act as disciplinary communities and students’ sense of belonging within classrooms is directly associated with their dispositions towards a particular field. Yet, high attrition rates for students with marginalized identities suggest students may not feel a sense of belonging in STEM disciplines. Group work is one method of supporting student’s engagement and sense of belonging in undergraduate classrooms. In Computer Science education, pair programming is a recommended pedagogical tool for enhancing students’ learning and sense of belonging. However, research has found that pair programming can also be subject to inequitable interactions, contribute to disparities of power and status, and squelch some students’ opportunities to learn and develop discipline-based identities. In this session, participants will engage with collaborative protocols and activities (both programming and norm establishing) developed to foster equitable collaborations. We will outline findings from our research to motivate how we developed and revised these protocols based on the collaborative experiences of students with marginalized identities. Participants will also engage in discussions around challenges and questions about implementation within their own classrooms. This session is intended for anyone currently using or interested in using collaborative programming in their course(s), but may also be useful for instructors employing group collaborations in non-programming contexts. Portions of the session will require attendees to have access to a laptop, and a basic understanding of R (e.g. RMarkdown/Quarto, dplyr, ggplot2)."
+  },
+  {
+    "objectID": "index.html#about-the-organizers",
+    "href": "index.html#about-the-organizers",
+    "title": "USCOTS 2025 Breakout Session: Research-based practices for integrating pair programming in the classroom",
+    "section": "About the Organizers",
+    "text": "About the Organizers\n\nJudith Canner, PhD\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Judith E. Canner received her B.S. in Mathematics from Shippensburg University and her Ph.D. in Biomathematics and Zoology from North Carolina State University. She is currently a Professor of Statistics in the Department of Mathematics and Statistics at California State University Monterey Bay (CSUMB). She established the Statistics and Data Science Major, Statistics Minor, and the Data Science Minor at CSUMB and she the current Department Chair. In addition to her focus on the growth of the Statistics and Data Science Program at CSUMB, she is also the co-PI on an NSF S-STEM grant to support scholarships for statistics and data science undergraduates, the CA Learning Lab Grant to build faculty development groups in data science, and a NSF iUSE grant to research equitable pair programming pedagogy in the data science classroom. Though her current research focuses on statistics and data science education, she has consulted on projects in kinesiology, psychology, health education, and cancer biology. Dr. Canner has won several CSU System-wide awards for her leadership and teaching. She has also served in leadership on committees for the MAA and CAUSE focused on Statistics and Data Science education and is a founding board member of the CA Alliance for Data Science Education\n\n\n\n\n\nAllison Theobold\n\n\n\n\n\n\n\n\n\n\n\n\n\nLOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM vLOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThis material is based upon work supported by the National Science Foundation under Grant Numbers 2334989 and 2334988. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html",
+    "href": "group-tasks/week-4/pa-3-ggplot.html",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "",
+    "text": "Today you will be exploring different types of visualizations to uncover which species of penguins reside on different islands.\nThis task is complex. It requires many different types of abilities. Everyone will be good at some of these abilities but nobody will be good at all of them. In order to solve this puzzle, you will need to use the skills of each member of your group.\nSome advice: If you aren’t sure how to make a specific plot or how to customize a look over the class text for this week and make use of the ggplot2 cheatsheet.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#groupwork-protocols",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#groupwork-protocols",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Groupwork Protocols",
+    "text": "Groupwork Protocols\nDuring the Practice Activity, you and your partner will alternate between two roles—Developer and Coder.\nWhen you are the Developer, you will type into the Quarto document in RStudio. However, you do not type your own ideas. Instead, you type what the Coder tells you to type. You are permitted to ask the Coder clarifying questions, and, if both of you have a question, you are permitted to ask the professor. You are expected to run the code provided by the Coder and, if necessary, to work with the Coder to debug the code. Once the code runs, you are expected to collaborate with the Coder to write code comments that describe the actions taken by your code.\nWhen you are the Coder, you are responsible for reading the instructions / prompts and directing the Developer what to type in the Quarto document. You are responsible for managing the resources your group has available to you (e.g., cheatsheet, textbook). If necessary, you should work with the Developer to debug the code you specified. Once the code runs, you are expected to collaborate with the Developer to write code comments that describe the actions taken by your code.\n\nGroup Norms\nRemember, your group is expected to adhere to the following norms:\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nNo cross-talk with other groups.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-1-install-the-palmerpenguins-package",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-1-install-the-palmerpenguins-package",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 1: Install the palmerpenguins Package",
+    "text": "Step 1: Install the palmerpenguins Package\nWe will be creating visualizations using the ggplot2 package.\nFor this activity, we will be exploring the penguins data from the palmerpenguins package, which has fantastic documentation with really awesome artwork. So, you will need to install the palmerpenguins package. Run the following code in your console:\ninstall.packages(\"palmerpenguins\")",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-2-create-a-set-up-code-chunk",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-2-create-a-set-up-code-chunk",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 2: Create a Set-up Code Chunk",
+    "text": "Step 2: Create a Set-up Code Chunk\n\nLocate the code chunk at the beginning of your document (directly under the YAML).\nName the code chunk setup (with the hashpipe #|)\nSpecify the code chunk options (with the hashpipe #|) that the messages from loading in the packages should not be included.\nLoad in the tidyverse or ggplot2 package.\nLoad in the palmerpenguins package.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-3-accessing-the-penguins-dataset",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-3-accessing-the-penguins-dataset",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 3: Accessing the penguins Dataset",
+    "text": "Step 3: Accessing the penguins Dataset\nI like to tangibly see the data set I will be working with so let’s pull the penguins data into the R environment. Run the code below and you should see the penguins data appear in the top right Environment tab.\n\ndata(penguins)",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-4-get-to-know-the-data",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-4-get-to-know-the-data",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 4: Get to Know the Data",
+    "text": "Step 4: Get to Know the Data\nWhat variables are included in these data? What units are the variables measured in? What does each row represent?\n\nInsert Answer Here",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-5-barchart",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-5-barchart",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 5: Barchart",
+    "text": "Step 5: Barchart\nUse ggplot2 to draw a barchart of different species included in the dataset.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-6-scatterplot",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-6-scatterplot",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 6: Scatterplot",
+    "text": "Step 6: Scatterplot\nUse ggplot2 to create a scatterplot of the relationship between the bill length (bill_length_mm) and bill depth (bill_depth_mm).",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-7-adding-a-categorical-variable",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-7-adding-a-categorical-variable",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 7: Adding A Categorical Variable",
+    "text": "Step 7: Adding A Categorical Variable\n\nBuilding off of the plot you made in Step 6, add an aesthetic to differentiate the species of the penguins in the scatterplot by color.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  },
+  {
+    "objectID": "group-tasks/week-4/pa-3-ggplot.html#step-8-adding-another-categorical-variable",
+    "href": "group-tasks/week-4/pa-3-ggplot.html#step-8-adding-another-categorical-variable",
+    "title": "PA 3: Using Data Visualization to Find the Penguins",
+    "section": "Step 8: Adding Another Categorical Variable",
+    "text": "Step 8: Adding Another Categorical Variable\nBuilding off of the plot you made in Step 7, add the location of the penguins ( island) to your visualization. There may be more than one method to address this, however, one method will more easily allow you to address the questions below.",
+    "crumbs": [
+      "Breakout Session Activities",
+      "`ggplot2` Peer Activity"
+    ]
+  }
+]

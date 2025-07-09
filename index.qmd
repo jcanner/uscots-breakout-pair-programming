@@ -1,11 +1,52 @@
 ---
-title: "uscots-breakout-pair-programming"
+title: "USCOTS 2025 Breakout Session: Research-based practices for integrating pair programming in the classroom"
+
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Details
 
-```{r}
-1 + 1
-```
+**Location**: Gerdin 0129, Iowa State University  
+**Date**: Friday, July 18, 2025  
+**Time**: 2:45pm - 4:00pm CT  
+
+
+
+## Description
+
+STEM classrooms act as disciplinary communities and students’ sense of belonging within classrooms is directly associated with their dispositions towards a particular field. Yet, high attrition rates for students with marginalized identities suggest students may not feel a sense of belonging in STEM disciplines. Group work is one method of supporting student’s engagement and sense of belonging in undergraduate classrooms. In Computer Science education, pair programming is a recommended pedagogical tool for enhancing students’ learning and sense of belonging. However, research has found that pair programming can also be subject to inequitable interactions, contribute to disparities of power and status, and squelch some students’ opportunities to learn and develop discipline-based identities. In this session, participants will engage with collaborative protocols and activities (both programming and norm establishing) developed to foster equitable collaborations. We will outline findings from our research to motivate how we developed and revised these protocols based on the collaborative experiences of students with marginalized identities. Participants will also engage in discussions around challenges and questions about implementation within their own classrooms. This session is intended for anyone currently using or interested in using collaborative programming in their course(s), but may also be useful for instructors employing group collaborations in non-programming contexts. Portions of the session will require attendees to have access to a laptop, and a basic understanding of R (e.g. RMarkdown/Quarto, dplyr, ggplot2).
+
+
+## About the Organizers
+
+### Judith Canner, PhD
+
+::: {layout="[[30,70]]]"}
+
+![](images/Canner_Judith_full.jpg){fig-align="left" fig-alt="A picture of Judith Canner"}
+
+Dr. Judith E. Canner received her B.S. in Mathematics from Shippensburg University and her Ph.D. in Biomathematics and Zoology from North Carolina State University.  She is currently a Professor of Statistics in the Department of Mathematics and Statistics at California State University Monterey Bay (CSUMB). She established the Statistics and Data Science Major, Statistics Minor, and the Data Science Minor at CSUMB and she the current Department Chair.  In addition to her focus on the growth of the Statistics and Data Science Program at CSUMB, she is also the co-PI on an NSF S-STEM grant to support scholarships for statistics and data science undergraduates, the CA Learning Lab Grant to build faculty development groups in data science, and a NSF iUSE grant to research equitable pair programming pedagogy in the data science classroom. Though her current research focuses on statistics and data science education, she has consulted on projects in kinesiology, psychology, health education, and cancer biology. Dr. Canner has won several CSU System-wide awards for her leadership and teaching. She has also served in leadership on committees for the MAA and CAUSE focused on Statistics and Data Science education and is a founding board member of the CA Alliance for Data Science Education
+
+:::
+
+
+### Allison Theobold
+
+::: {layout="[[30,70]]]"}
+
+![](images/Allison_Theobold.jpg){fig-align="left" fig-alt="A picture of Allison Theobold"}
+
+LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM vLOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM 
+:::
+
+
+
+
+
+
+
+
+::: {.callout-note}
+This material is based upon work supported by the National Science Foundation under Grant Numbers 2334989 and 2334988. **Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.**
+
+:::

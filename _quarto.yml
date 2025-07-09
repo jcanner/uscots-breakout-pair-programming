@@ -1,19 +1,57 @@
 project:
   type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
 
 website:
-  title: "uscots-breakout-pair-programming"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  page-navigation: true
+  title: "Introduction to Statistical Computing in R"
+  description: "Homepage for STAT 331 at Cal Poly"
+  site-url: "https://github.com/atheobold/groupworthy-data-science"
+  repo-url: https://github.com/atheobold/groupworthy-data-science
+  repo-actions: [issue]
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, Allison Theobold & Judith Canner"
+    background: "#D9E3E4"
+
+  sidebar:
+    background: "#5D737E"
+    logo: "images/r-flowers.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/jcanner/uscots-breakout-pair-programming
+        text: "GitHub Repo"
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Breakout Session Activities"
+        contents:
+          - href: 
+            text: Overview
+          - href: group-tasks/week-1/broken-circle.qmd
+            text: "Broken Circles" 
+          - href: group-tasks/pair-programming-norms.qmd
+            text: "Peer Programming Protocol"
+          - href: group-tasks/week-4/pa-3-ggplot.qmd
+            text: "`ggplot2` Peer Activity"           
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, style/stat331.scss]
+      dark: [cosmo, style/stat331.scss, style/dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
     toc: true
+    linkcolor: "#5D737E"
+#    highlight-style: a11y-dark
 
-
-
+editor: source
