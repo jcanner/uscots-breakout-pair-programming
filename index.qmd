@@ -47,6 +47,9 @@ LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IP
 
 
 ::: {.callout-note}
+
 This material is based upon work supported by the National Science Foundation under Grant Numbers 2334989 and 2334988. **Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.**
+
+![](images/NSF_Official_logo_High_Res_1200ppi.png){fig-align="left" fig-alt="NSF logo featuring a blue globe with white NSF letters in front, surrounded by a gold gear-like border."}
 
 :::
