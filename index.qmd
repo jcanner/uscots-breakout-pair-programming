@@ -31,7 +31,7 @@ Dr. Judith E. Canner received her B.S. in Mathematics from Shippensburg Universi
 :::
 
 
-### Allison Theobold
+### Allison Theobold, PhD
 
 ::: {layout="[[30,70]]]"}
 
@@ -48,14 +48,11 @@ LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IP
 
 
 
-::: {.callout-note}
 
-::: {layout="[[70,30]]]"}
+::: {layout="[[75,25]]]"}
 
 This material is based upon work supported by the National Science Foundation under Grant Numbers 2334989 and 2334988. *Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
 
-![](images/NSF_Official_logo_High_Res_1200ppi.png){fig-align="right" fig-alt="NSF logo featuring a blue globe with white NSF letters in front, surrounded by a gold gear-like border."}
-
-:::
+![](images/NSF_Official_logo_High_Res_1200ppi.png){fig-align="right" fig-alt="NSF logo featuring a blue globe with white NSF letters in front, surrounded by a gold gear-like border." style="height:10em"}
 
 :::
