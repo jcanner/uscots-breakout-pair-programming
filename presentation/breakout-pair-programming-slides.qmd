@@ -1,0 +1,24 @@
+---
+title: "Research-Based Practices for Integrating Pair Programming in the Classroom"
+subtitle: "USCOTS 2025 Breakout Session"
+author: "Judith Cannerm Allison Theobold"
+institute: "1. Cal State, Monterey Bay, 2. Cal Poly, San Luis Obispo"
+format: 
+  revealjs:
+    slide-number: c/t
+---
+
+## Overview
+
+
+## Pair Programming
+
+
+
+## Activity 1: Broken Circles
+
+
+## Pair Programming Protocols
+
+
+## Activity 2: Find the Penguin

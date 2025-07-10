@@ -1,6 +1,6 @@
 ---
-title: "USCOTS 2025 Breakout Session"
-subtitle: "Research-Based Practices for Integrating Pair Programming in the Classroom"
+title: "Research-Based Practices for Integrating Pair Programming in the Classroom"
+subtitle: "USCOTS 2025 Breakout Session"
 format: html
 ---
 
@@ -49,9 +49,9 @@ LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IP
 
 
 
-::: {layout="[[75,25]]]"}
+::: {layout="[[80,20]]]"}
 
-This material is based upon work supported by the National Science Foundation under Grant Numbers 2334989 and 2334988. *Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
+This material is based upon work supported by the National Science Foundation under Grant Numbers #2334989 and #2334988. *Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.*
 
 ![](images/NSF_Official_logo_High_Res_1200ppi.png){fig-align="right" fig-alt="NSF logo featuring a blue globe with white NSF letters in front, surrounded by a gold gear-like border." style="height:10em"}
 
