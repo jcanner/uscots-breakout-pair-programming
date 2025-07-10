@@ -6,6 +6,7 @@ institute: "1. Cal State, Monterey Bay, 2. Cal Poly, San Luis Obispo"
 format: 
   revealjs:
     slide-number: c/t
+    self-contained: true
 ---
 
 ## Overview
