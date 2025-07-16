@@ -24,7 +24,17 @@
     "href": "presentation/breakout-pair-programming-slides.html#pair-programming-history",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Pair Programming History",
-    "text": "Pair Programming History\n\nOriginated in Computer Science\nCommon in academia and industry",
+    "text": "Pair Programming History\n\nOriginated in Computer Science (Beck 2000)\nCommon in academia and industry\nPair programming involves two students sitting side-by-side, working on one computer to collaboratively work through a programming problem (Beck, 2000).",
+    "crumbs": [
+      "Breakout Session Slides"
+    ]
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#pair-programming",
+    "href": "presentation/breakout-pair-programming-slides.html#pair-programming",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "Pair Programming",
+    "text": "Pair Programming\nProgrammers alternate who is the “driver,” responsible for designing, typing the code, and having control over the shared resource (e.g., computer, mouse, and keyboard), and the “navigator,” responsible for providing support to identify errors, offer ideas, or opportunities for improvement (Williams and Kessler, 2002).",
     "crumbs": [
       "Breakout Session Slides"
     ]
@@ -34,7 +44,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#pair-programming-challenges",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Pair Programming Challenges",
-    "text": "Pair Programming Challenges",
+    "text": "Pair Programming Challenges\n\nStatus: Group collaborations fall prey to issues of status—the distribution of power among peers (Cohen and Lotan, 1995)\nPower & Authority: Who speaks and whose voice is are recognized are indicative of power and status (Chiu & Khoo, 2003; Esmonde, 2009; Mulryan, 1994).\nMarginalized Identities: The oppression students with marginalized identities when collaborating with peers in the mathematics classroom (Leyva et al., 2021) impact the development of students’ mathematical identities (Langer-Osuna, 2011; 2016).",
     "crumbs": [
       "Breakout Session Slides"
     ]
@@ -44,7 +54,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#training-students-in-equitable-collaboration",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Training Students in Equitable Collaboration",
-    "text": "Training Students in Equitable Collaboration",
+    "text": "Training Students in Equitable Collaboration\n\nComplex InstructionRoles & NormsGroup-worthy TasksStatus & Accountability\n\n\nCI as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997).\n{.fig-alt=“Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states”Manage”.}\n\n\nDevelop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation\n\n\nProvide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.\n\n\nAttending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding.",
     "crumbs": [
       "Breakout Session Slides"
     ]
@@ -94,27 +104,57 @@
     "href": "presentation/breakout-pair-programming-slides.html#roles-in-pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Roles in Pair Programming",
-    "text": "Roles in Pair Programming",
+    "text": "Roles in Pair Programming\n\nCoder: Proposes Solution StrategiesDeveloper: Evaluates Solution Strategies\n\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.",
     "crumbs": [
       "Breakout Session Slides"
     ]
   },
   {
-    "objectID": "presentation/breakout-pair-programming-slides.html#examples",
-    "href": "presentation/breakout-pair-programming-slides.html#examples",
+    "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
+    "href": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "Examples",
-    "text": "Examples",
+    "section": "ggplot2 Review",
+    "text": "ggplot2 Review\nComplete this template to build a basic graphic:\n\nggplot(\n  data = &lt;DATA&gt;, \n  mapping = aes(&lt;MAPPINGS&gt;)\n  ) +\n  &lt;GEOM FUNCTION&gt;() + \n  any other arguments...\n\n\nNotice, every + adds another layer to our graphic.",
     "crumbs": [
       "Breakout Session Slides"
     ]
   },
   {
-    "objectID": "presentation/breakout-pair-programming-slides.html#establishing-norms-1",
-    "href": "presentation/breakout-pair-programming-slides.html#establishing-norms-1",
+    "objectID": "presentation/breakout-pair-programming-slides.html#using-data-visualization-to-find-the-penguins",
+    "href": "presentation/breakout-pair-programming-slides.html#using-data-visualization-to-find-the-penguins",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "Establishing Norms",
-    "text": "Establishing Norms",
+    "section": "Using Data Visualization to Find the Penguins",
+    "text": "Using Data Visualization to Find the Penguins\n\n\n\nThis puzzle activity will require knowledge of:\n\ninstalling and loading packages in R\nformatting code chunks in Quarto\ninterpreting the context of a dataset\ndata types / variable types\ndifferent types of visualizations\nwhat visualization(s) go with different data types\nhow to make visualizations with ggplot2\nchoosing between different aesthetic options\n\n\n\n\n\n\n\nNone of us have all these abilities. Each of us has some of these abilities.",
+    "crumbs": [
+      "Breakout Session Slides"
+    ]
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#pair-programming-expectations",
+    "href": "presentation/breakout-pair-programming-slides.html#pair-programming-expectations",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "Pair Programming Expectations",
+    "text": "Pair Programming Expectations\n\nDuring your collaboration, you and your partner will alternate between two roles:\n\n\n\n\nDeveloper\n\n\nReads prompt and ensures Coder understands what is being asked.\nTypes the code specified by the Coder into the Quarto document.       \nRuns the code provided by the Coder.\nWorks with Coder to debug the code. \nEvaluates the output.\n\nWorks with Coder to write code comments.\n\n\n\n\n\n\nCoder\n\n\nReads out instructions or prompts\nDirects the Developer what to type.\nTalks with Developer about their ideas. \nManages resources (e.g., cheatsheets, textbook). \nWorks with Developer to debug the code. \nWorks with Developer to write code comments.",
+    "crumbs": [
+      "Breakout Session Slides"
+    ]
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#section",
+    "href": "presentation/breakout-pair-programming-slides.html#section",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "",
+    "text": "Group Norms\n\n\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!",
+    "crumbs": [
+      "Breakout Session Slides"
+    ]
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-resources",
+    "href": "presentation/breakout-pair-programming-slides.html#ggplot2-resources",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "ggplot2 Resources",
+    "text": "ggplot2 Resources\nEvery group should have a ggplot2 cheatsheet!\n\n\n\nOn the Front\n\n\n\nColumn 1: the “template” for making a ggplot\nColumn 3: creating plots for two continuous variables\nColumn 4: creating plots for one discrete or one continuous variable\n\n\n\n\n\n\n\n\nOn the Back\n\n\n\nColumn 4: adding facets and labels to your plot\nColumn 3: adding themes to your plot (if you have extra time)",
     "crumbs": [
       "Breakout Session Slides"
     ]
@@ -124,7 +164,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#discussion",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Discussion",
-    "text": "Discussion",
+    "text": "Discussion\n\nWas it easy or hard to stay “in your role”?\nHow did the roles contribute to equitable participation?\nWhat was the instructor role during this activity?",
     "crumbs": [
       "Breakout Session Slides"
     ]
@@ -134,7 +174,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#think-about-your-classes",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Think about your classes…",
-    "text": "Think about your classes…\n\nHow does within your current classes/teaching?\nHow do you think this would help?\nWhat challenges? What opportunities?\nWhat the instructor role during this activity?",
+    "text": "Think about your classes…\n\nHow does fit within your current classes/teaching?\nHow do you think this would help your students learn programming?\nWhat challenges do you forsee?\nWhat opportunities does this provide?",
     "crumbs": [
       "Breakout Session Slides"
     ]
