@@ -43,29 +43,36 @@ Programmers alternate who is the “driver,” responsible for designing, typing
 
 - **Power & Authority**: Who speaks and whose voice is are recognized are indicative of power and status (Chiu & Khoo, 2003; Esmonde, 2009; Mulryan, 1994).
 
-- **Marginalized Identities**: 
-Research has repeatedly shown the oppression students with marginalized identities face when collaborating with peers in the mathematics classroom (Leyva et al., 2021), and its impact on the development of students’ mathematical identities (Langer-Osuna, 2011; 2016). 
-
-Gendered and racial microaggressions students face oppress their opportunity to learn and lead historically marginalized Black students (Jett, 2013) and Latina students (Leyva, 2016) to reconsider their STEM pursuits.
+- **Marginalized Identities**: The oppression students with marginalized identities when collaborating with peers in the mathematics classroom (Leyva et al., 2021) impact the development of students’ mathematical identities (Langer-Osuna, 2011; 2016). 
 
 
 
 
 ## Training Students in Equitable Collaboration
 
-Complex Instruction
+::: {.panel-tabset}
+
+## Complex Instruction
+
 CI as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997). 
 
+![Hold 2012](images/complex instruction.png){.fig-alt="Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states "Manage".}
 
-Roles & Norms
-Defining norms and roles to support the autonomy of the groups
+## Roles & Norms
 
-Tasks
-Teaching via “group-worthy” tasks that require multiple abilities to complete. 
+Develop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation
 
-Instructor
-Attending to the status of individuals through instructor support
 
+## Group-worthy Tasks
+
+Provide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.
+
+
+## Status & Accountability
+
+Attending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding.
+
+::: 
 
 # [Activity 1: Broken Circles](../group-tasks/week-1/broken-circles.qmd){target=_blank}
 
@@ -137,14 +144,16 @@ How do we know our group is engaging in equtiable participation?
 
 ## Roles in Pair Programming
 
-### Coder: Proposes Solution Strategies
+::: {.panel-tabset}
+
+## Coder: Proposes Solution Strategies
 
 - Reads out instructions or prompts
 - Directs the Developer what to type in the Quarto document in RStudio
 - Talks with Developer about ideas related to ways they could solve the problem.
 - Manages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.
 
-### Developer: Evaluates Solution Strategies
+## Developer: Evaluates Solution Strategies
 
 - Asks the instructor group questions.
 - Types the code specified by the Coder into the Quarto document. 
@@ -153,14 +162,11 @@ How do we know our group is engaging in equtiable participation?
 - Asks the Coder clarifying questions.
 - Runs the code provided by the Coder.
 
-
-## Examples
-
-
+:::
 
 # [Activity 2: Find the Penguins](../group-tasks/week-4/pa-3-ggplot.qmd){target=_blank}
 
-## How to Build a Graphic
+## `ggplot2` Review
 
 Complete this template to build a basic graphic:
 
@@ -184,7 +190,7 @@ Notice, every `+` adds another **layer** to our graphic.
 . . .
 
 
-# PA: Using Data Visualization to Find the Penguins
+# Peer Activity: Using Data Visualization to Find the Penguins
 
 ![Artwork by Allison Horst](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
 
@@ -337,13 +343,19 @@ Every group should have a **ggplot2** cheatsheet!
 
 ## Discussion
 
+- Was it easy or hard to stay "in your role"?
+- How did the roles contribute to equitable participation?
+- What was the instructor role during this activity?
+
+
 # Classroom Integration
 
 ## Think about your classes...
 
-- How does within your current classes/teaching?
-- How do you think this would help?
-- What challenges? What opportunities?
-- What the instructor role during this activity?
+- How does fit within your current classes/teaching?
+- How do you think this would help your students learn programming?
+- What challenges do you forsee? 
+- What opportunities does this provide?
 
+# Thank you!
 
