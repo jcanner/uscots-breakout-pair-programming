@@ -340,12 +340,100 @@ Student Activity
 <h1>Canvas Quiz</h1>
 <p>Working together as a team, use the plots you both created to address the following questions on Canvas:</p>
 <ol type="1">
-<li><p>Which species of penguins is represented the <strong>least</strong> in the <code>penguins</code> data set?</p></li>
-<li><p>Which species of penguins are found on Biscoe Island?</p></li>
-<li><p>Which species of penguins are found on Dream Island?</p></li>
-<li><p>Which species of penguins are found on Torgersen Island?</p></li>
-<li><p>Color deficiencies can make differentiating groups difficult—what aesthetic could you add to your plot to double encode species?</p></li>
+<li>Which species of penguins is represented the <strong>least</strong> in the <code>penguins</code> data set?</li>
 </ol>
+<div class="cell">
+<div class="cell-output-display no-overflow-x">
+<form name="form_34855" onsubmit="return validate_form_34855()" method="post">
+<select name="answer_34855">
+<option>Chinstrap</option>
+</select>
+<input type="submit" value="Check Your Answer">
+<div id="result_34855"></div>
+</form>
+<script>function validate_form_34855() {var x, text; var x = document.forms['form_34855']['answer_34855'].value;if (x == 'Adelie'|x == 'Chinstrap'|x == 'Gentoo'|x == 'Torgerson'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_34855').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+         element = document.getElementById('checkdown_final_score');
+         if(element === null){return false;} else {var element, text, res1;res1 = document.getElementById('result_34855').innerText == 'Great Job!';text = res1;element.innerHTML = text;
+         return false;
+         }}</script>
+</div>
+</div>
+<ol start="2" type="1">
+<li>Which species of penguins are found only on Biscoe Island?</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<form name="form_7125" onsubmit="return validate_form_7125()" method="post">
+<input type="checkbox" id="answer_7125_1" value="Gentoo">
+<label>Gentoo</label>
+<br>
+<input type="submit" value="Check Your Answer">
+<div id="result_7125"></div>
+</form>
+<script>function validate_form_7125() {var text; var x1 = document.getElementById('answer_7125_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_7125').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+         element = document.getElementById('checkdown_final_score');
+         if(element === null){return false;} else {var element, text, res1, res2;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!';text = res1 + res2;element.innerHTML = text;
+         return false;
+         }}</script>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Which species of penguins are found only on Dream Island?</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<form name="form_70711" onsubmit="return validate_form_70711()" method="post">
+<input type="checkbox" id="answer_70711_1" value="Chinstrap">
+<label>Chinstrap</label>
+<br>
+<input type="submit" value="Check Your Answer">
+<div id="result_70711"></div>
+</form>
+<script>function validate_form_70711() {var text; var x1 = document.getElementById('answer_70711_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_70711').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+         element = document.getElementById('checkdown_final_score');
+         if(element === null){return false;} else {var element, text, res1, res2, res3;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!';text = res1 + res2 + res3;element.innerHTML = text;
+         return false;
+         }}</script>
+</div>
+</div>
+<ol start="4" type="1">
+<li>Which species of penguins are found on every island?</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<form name="form_5268" onsubmit="return validate_form_5268()" method="post">
+<input type="checkbox" id="answer_5268_1" value="Adelie">
+<label>Adelie</label>
+<br>
+<input type="submit" value="Check Your Answer">
+<div id="result_5268"></div>
+</form>
+<script>function validate_form_5268() {var text; var x1 = document.getElementById('answer_5268_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_5268').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+         element = document.getElementById('checkdown_final_score');
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!'; res4 = document.getElementById('result_5268').innerText == 'Great Job!';text = res1 + res2 + res3 + res4;element.innerHTML = text;
+         return false;
+         }}</script>
+</div>
+</div>
+<ol start="5" type="1">
+<li>Color deficiencies can make differentiating groups difficult—what aesthetic could you add to your plot to double encode species?</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display no-overflow-x">
+<form name="form_89902" onsubmit="return validate_form_89902()" method="post">
+<select name="answer_89902">
+<option>shape</option>
+</select>
+<input type="submit" value="Check Your Answer">
+<div id="result_89902"></div>
+</form>
+<script>function validate_form_89902() {var x, text; var x = document.forms['form_89902']['answer_89902'].value;if (x == 'group'|x == 'linetype'|x == 'shape'|x == 'alpha'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_89902').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+         element = document.getElementById('checkdown_final_score');
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4, res5;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!'; res4 = document.getElementById('result_5268').innerText == 'Great Job!'; res5 = document.getElementById('result_89902').innerText == 'Great Job!';text = res1 + res2 + res3 + res4 + res5;element.innerHTML = text;
+         return false;
+         }}</script>
+</div>
+</div>
 
 
 </section>

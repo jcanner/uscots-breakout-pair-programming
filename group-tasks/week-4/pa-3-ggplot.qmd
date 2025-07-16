@@ -8,7 +8,9 @@ execute:
 ---
 
 ```{r}
-
+#| label: setup
+#| include: false
+library(checkdown)
 ```
 
 Today you will be exploring different types of visualizations to uncover which species of penguins reside on different islands.
@@ -152,17 +154,93 @@ Building off of the plot you made in Step 7, add the location of the penguins ( 
 
 ```
 
+
+
+
+
 # Canvas Quiz
 
-Working together as a team, use the plots you both created to address the
-following questions on Canvas:
+Working together as a team, use the plots you both created to address the following questions on Canvas:
 
 1.  Which species of penguins is represented the **least** in the `penguins` data set?
 
-2.  Which species of penguins are found on Biscoe Island?
+```{r}
+#| label: q1
+#| echo: false
+check_question(answer = c("Adelie",
+                          "Chinstrap",
+                          "Gentoo",
+                          "Torgerson"), 
+               options = c("Chinstrap"),
+               right = "Great Job!",
+               wrong = "Try Again",
+               type = "select", 
+               button_label = "Check Your Answer")
+```
 
-3.  Which species of penguins are found on Dream Island?
 
-4.  Which species of penguins are found on Torgersen Island?
+
+2.  Which species of penguins are found only on Biscoe Island?
+
+```{r}
+#| label: q2
+#| echo: false
+check_question(answer = c("Adelie",
+                          "Chinstrap",
+                          "Gentoo",
+                          "Torgerson"), 
+               options = c("Gentoo"),
+               right = "Great Job!",
+               wrong = "Try Again",
+               type = "checkbox", 
+               button_label = "Check Your Answer")
+```
+
+3.  Which species of penguins are found only on Dream Island?
+
+```{r}
+#| label: q3
+#| echo: false
+check_question(answer = c("Adelie",
+                          "Chinstrap",
+                          "Gentoo",
+                          "Torgerson"), 
+               options = c("Chinstrap"),
+               right = "Great Job!",
+               wrong = "Try Again",
+               type = "checkbox", 
+               button_label = "Check Your Answer")
+```
+
+4.  Which species of penguins are found on every island?
+
+```{r}
+#| label: q4
+#| echo: false
+check_question(answer = c("Adelie",
+                          "Chinstrap",
+                          "Gentoo",
+                          "Torgerson"), 
+               options = c("Adelie"),
+               right = "Great Job!",
+               wrong = "Try Again",
+               type = "checkbox", 
+               button_label = "Check Your Answer")
+```
+
 
 5.  Color deficiencies can make differentiating groups difficult---what aesthetic could you add to your plot to double encode species?
+
+```{r}
+#| label: q5
+#| echo: false
+check_question(answer = c("group",
+                          "linetype",
+                          "shape",
+                          "alpha"), 
+               options = c("shape"),
+               right = "Great Job!",
+               wrong = "Try Again",
+               type = "select", 
+               button_label = "Check Your Answer")
+```

@@ -102,15 +102,17 @@ Building off of the plot you made in Step 7, add the location of the penguins ( 
 
 # Canvas Quiz
 
-Working together as a team, use the plots you both created to address the
-following questions on Canvas:
+Working together as a team, use the plots you both created to address the following questions on Canvas:
 
 1.  Which species of penguins is represented the **least** in the `penguins` data set?
 
-2.  Which species of penguins are found on Biscoe Island?
+2.  Which species of penguins are found only on Biscoe Island?
 
-3.  Which species of penguins are found on Dream Island?
+3.  Which species of penguins are found only on Dream Island?
 
-4.  Which species of penguins are found on Torgersen Island?
+4.  Which species of penguins are found on every island?
 
 5.  Color deficiencies can make differentiating groups difficult---what aesthetic could you add to your plot to double encode species?
+
+
+
