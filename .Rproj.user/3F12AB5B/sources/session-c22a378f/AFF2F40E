@@ -3,7 +3,7 @@
     "path": "C:/Users/cann4817/Desktop/uscots-breakout-pair-programming/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "4274735283",
+    "hash": "910286685",
     "contents": "",
     "dirty": false,
     "created": 1752677889190.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,17",
+        "cursorPosition": "33,31",
         "scrollLine": "30"
     },
     "folds": "",
-    "lastKnownWriteTime": 1752679880,
+    "lastKnownWriteTime": 1752680202,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1752679880647,
+    "last_content_update": 1752680202146,
     "read_only": false,
     "read_only_alternatives": []
 }

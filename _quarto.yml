@@ -31,8 +31,9 @@ website:
     search: true
     collapse-level: 1
     contents:
-      - href: presentation/breakout-pair-programming-slides.qmd
-      - text: "Breakout Session Slides"
+      - section: "Presentation"
+          - href: presentation/breakout-pair-programming-slides.qmd
+          - text: "Breakout Session Slides"
       - section: "Breakout Session Activities"
         contents:
           - href: group-tasks/week-1/broken-circles.qmd
