@@ -167,14 +167,14 @@ Working together as a team, use the plots you both created to address the follow
 ```{r}
 #| label: q1
 #| echo: false
-check_question(answer = c("Adelie",
+check_question(options = c("Adelie",
                           "Chinstrap",
                           "Gentoo",
                           "Torgerson"), 
-               options = c("Chinstrap"),
+               answer = c("Chinstrap"),
                right = "Great Job!",
                wrong = "Try Again",
-               type = "select", 
+               type = "radio", 
                button_label = "Check Your Answer")
 ```
 
@@ -185,11 +185,11 @@ check_question(answer = c("Adelie",
 ```{r}
 #| label: q2
 #| echo: false
-check_question(answer = c("Adelie",
+check_question(options = c("Adelie",
                           "Chinstrap",
                           "Gentoo",
                           "Torgerson"), 
-               options = c("Gentoo"),
+               answer = c("Gentoo"),
                right = "Great Job!",
                wrong = "Try Again",
                type = "checkbox", 
@@ -201,11 +201,11 @@ check_question(answer = c("Adelie",
 ```{r}
 #| label: q3
 #| echo: false
-check_question(answer = c("Adelie",
+check_question(options = c("Adelie",
                           "Chinstrap",
                           "Gentoo",
                           "Torgerson"), 
-               options = c("Chinstrap"),
+               answer = c("Chinstrap"),
                right = "Great Job!",
                wrong = "Try Again",
                type = "checkbox", 
@@ -217,11 +217,11 @@ check_question(answer = c("Adelie",
 ```{r}
 #| label: q4
 #| echo: false
-check_question(answer = c("Adelie",
+check_question(options = c("Adelie",
                           "Chinstrap",
                           "Gentoo",
                           "Torgerson"), 
-               options = c("Adelie"),
+               answer = c("Adelie"),
                right = "Great Job!",
                wrong = "Try Again",
                type = "checkbox", 
@@ -234,13 +234,13 @@ check_question(answer = c("Adelie",
 ```{r}
 #| label: q5
 #| echo: false
-check_question(answer = c("group",
+check_question(options = c("group",
                           "linetype",
                           "shape",
                           "alpha"), 
-               options = c("shape"),
+               answer = c("shape"),
                right = "Great Job!",
                wrong = "Try Again",
-               type = "select", 
+               type = "radio", 
                button_label = "Check Your Answer")
 ```

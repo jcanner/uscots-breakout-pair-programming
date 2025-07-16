@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research-Based Practices for Integrating Pair Programming in the Classroom – Introduction to Statistical Computing in R</title>
+<title>Pair Programming Roles – Introduction to Statistical Computing in R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dd01fc8b47943ccb281ee7996e9eafb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-760729c915d1dde12ab269fcb4c0541b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../group-tasks/week-4/pa-3-ggplot.html" rel="next">
+<link href="../group-tasks/week-1/broken-circles.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dd01fc8b47943ccb281ee7996e9eafb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-760729c915d1dde12ab269fcb4c0541b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -80,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Research-Based Practices for Integrating Pair Programming in the Classroom</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../group-tasks/week-1/broken-circles.html">Breakout Session Activities</a></li><li class="breadcrumb-item"><a href="../group-tasks/pair-programming-norms.html">Peer Programming Protocol</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -94,8 +96,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/r-flowers.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/r-flowers.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/jcanner/uscots-breakout-pair-programming" title="GitHub Repo" class="quarto-navigation-tool px-1" aria-label="GitHub Repo"><i class="bi bi-github"></i></a>
@@ -111,34 +113,34 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./(presentation/breakout-pair-programming-slides.qmd){target=&quot;_blank&quot;}" class="sidebar-item-text sidebar-link">
+  <a href="../(presentation/breakout-pair-programming-slides.qmd){target=&quot;_blank&quot;}" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Breakout Session Slides</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Breakout Session Activities</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./group-tasks/week-1/broken-circles.html" class="sidebar-item-text sidebar-link">
+  <a href="../group-tasks/week-1/broken-circles.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Broken Circles</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./group-tasks/pair-programming-norms.html" class="sidebar-item-text sidebar-link">
+  <a href="../group-tasks/pair-programming-norms.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Peer Programming Protocol</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./group-tasks/week-4/pa-3-ggplot.html" class="sidebar-item-text sidebar-link">
+  <a href="../group-tasks/week-4/pa-3-ggplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><code>ggplot2</code> Peer Activity</span></a>
   </div>
 </li>
@@ -154,23 +156,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#details" id="toc-details" class="nav-link active" data-scroll-target="#details">Details</a></li>
-  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
-  <li><a href="#about-the-organizers" id="toc-about-the-organizers" class="nav-link" data-scroll-target="#about-the-organizers">About the Organizers</a>
-  <ul class="collapse">
-  <li><a href="#judith-canner-phd" id="toc-judith-canner-phd" class="nav-link" data-scroll-target="#judith-canner-phd">Judith Canner, PhD</a></li>
-  <li><a href="#allison-theobold-phd" id="toc-allison-theobold-phd" class="nav-link" data-scroll-target="#allison-theobold-phd">Allison Theobold, PhD</a></li>
-  </ul></li>
+  <li><a href="#group-norms" id="toc-group-norms" class="nav-link active" data-scroll-target="#group-norms">Group Norms</a></li>
+  <li><a href="#completing-the-task" id="toc-completing-the-task" class="nav-link" data-scroll-target="#completing-the-task">Completing the Task</a></li>
+  <li><a href="#once-youre-finished" id="toc-once-youre-finished" class="nav-link" data-scroll-target="#once-youre-finished">Once You’re Finished</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/atheobold/groupworthy-data-science/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../group-tasks/week-1/broken-circles.html">Breakout Session Activities</a></li><li class="breadcrumb-item"><a href="../group-tasks/pair-programming-norms.html">Peer Programming Protocol</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Research-Based Practices for Integrating Pair Programming in the Classroom</h1>
-<p class="subtitle lead">USCOTS 2025 Breakout Session</p>
+<h1 class="title">Pair Programming Roles</h1>
 </div>
 
 
@@ -187,77 +184,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="details" class="level2">
-<h2 class="anchored" data-anchor-id="details">Details</h2>
-<p><strong>Location</strong>: Gerdin 0129, Iowa State University<br>
-<strong>Date</strong>: Friday, July 18, 2025<br>
-<strong>Time</strong>: 2:45pm - 4:00pm CT</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pair Programming Card
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In class, we provide a pair programming card with the following information. Here is a word version you can use in your own classroom.</p>
+<p><a href="pair-programming-norms.docx">Pair Programming Card</a></p>
+</div>
+</div>
+<p>During our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles as directed:</p>
+<div class="columns">
+<div class="column" style="width:41%;">
+<p><strong>Coder</strong> – <em>Proposes solution strategies</em></p>
+<ul>
+<li>Reads out instructions or prompts</li>
+<li>Directs the Developer what to type in the Quarto document in RStudio</li>
+<li>Talks with Developer about ideas related to ways they could solve the problem.</li>
+<li><strong>Does not</strong> ask the Developer how they would solve the problem.</li>
+<li>Manages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.</li>
+<li><strong>Does not</strong> ask the developer what functions / tools they should use.</li>
+<li>Revises solution strategy based on evaluation / debugging conversations with the Developer.</li>
+<li><strong>Does not</strong> ask the Developer to debug the code.</li>
+<li>Talks with the Developer about what comments to make in the Quarto document to help the group understand the code later.</li>
+</ul>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="width:57%;">
+<p><strong>Developer</strong> – <em>Evaluates solution strategy</em></p>
+<ul>
+<li>Reads prompt and ensures Coder understands what the problem is asking.</li>
+<li>If neither party understands what the problem is asking, raises hand to ask a group question to Dr.&nbsp;Theobold.</li>
+<li>Types the code specified by the Coder into the Quarto document in RStudio</li>
+<li>Listens carefully, asks the Coder to repeat statements if needed, or to slow down.</li>
+<li>Encourages the Coder to vocalize their thinking.</li>
+<li>Asks the Coder clarifying questions.</li>
+<li>Checks for accuracy by asking the solution to be restated for clarity.</li>
+<li><strong>Does not</strong> give hints to the Coder for how to solve the problem.</li>
+<li><strong>Does not</strong> solve the problem themselves.</li>
+<li>Runs the code provided by the Coder.</li>
+<li>If code does not run or has errors, talks with Coder about how to debug the proposed solution strategy.</li>
+<li><strong>Does not</strong> tell the Coder how to correct an error.</li>
+<li>Once code runs, evaluates the output relative to the prompt to ensure the output addresses the question.</li>
+<li>Talks with the Coder about what comments to make in the Quarto document to help the group understand the code later</li>
+</ul>
+</div>
+</div>
+<section id="group-norms" class="level2">
+<h2 class="anchored" data-anchor-id="group-norms">Group Norms</h2>
+<ol type="1">
+<li>Think and work together. Do not divide the work.</li>
+<li>You are smarter together.</li>
+<li>Be open minded.</li>
+<li>No cross-talk with other groups.</li>
+<li>Communicate with each other!</li>
+</ol>
+<!-- add in norms outlined in Week 1 -->
 </section>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>STEM classrooms act as disciplinary communities and students’ sense of belonging within classrooms is directly associated with their dispositions towards a particular field. Yet, high attrition rates for students with marginalized identities suggest students may not feel a sense of belonging in STEM disciplines. Group work is one method of supporting student’s engagement and sense of belonging in undergraduate classrooms. In Computer Science education, pair programming is a recommended pedagogical tool for enhancing students’ learning and sense of belonging. However, research has found that pair programming can also be subject to inequitable interactions, contribute to disparities of power and status, and squelch some students’ opportunities to learn and develop discipline-based identities. In this session, participants will engage with collaborative protocols and activities (both programming and norm establishing) developed to foster equitable collaborations. We will outline findings from our research to motivate how we developed and revised these protocols based on the collaborative experiences of students with marginalized identities. Participants will also engage in discussions around challenges and questions about implementation within their own classrooms. This session is intended for anyone currently using or interested in using collaborative programming in their course(s), but may also be useful for instructors employing group collaborations in non-programming contexts. Portions of the session will require attendees to have access to a laptop, and a basic understanding of R (e.g.&nbsp;RMarkdown/Quarto, dplyr, ggplot2).</p>
+<section id="completing-the-task" class="level2">
+<h2 class="anchored" data-anchor-id="completing-the-task">Completing the Task</h2>
+<p>Working with your partner, complete the Practice Activity in the Quarto document provided. In your roles—Coder and Developer—use the prompts below to help guide the completion of your activity.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><strong>Coder</strong></p>
+<p>I am looking for…<br>
+I am confused by…<br>
+I notice…<br>
+What might be true is…<br>
+What’s important is…<br>
+I predict…<br>
+This reminds me of…<br>
+What if we…<br>
+We could try…<br>
+I am thinking about…<br>
+A line of code I could write is…</p>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="width:53%;">
+<p><strong>Developer</strong></p>
+<!-- Facilitator -->
+<p>Do you understand what we need to do?<br>
+What’s the question we have for Dr.&nbsp;Theobold? Can we answer the question ourselves?<br>
+What are you focusing on?<br>
+What are you thinking now?<br>
+Could you tell me more?<br>
+What are you doing (or writing) now? Please elaborate.<br>
+I can’t follow that, run that by me again.<br>
+<!-- Resource Manager --> What other sources of information do we need?<br>
+Which words should we look up?<br>
+What else do we need to complete this problem?</p>
+</div>
+</div>
 </section>
-<section id="about-the-organizers" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-organizers">About the Organizers</h2>
-<section id="judith-canner-phd" class="level3">
-<h3 class="anchored" data-anchor-id="judith-canner-phd">Judith Canner, PhD</h3>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[[30,70]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Canner_Judith_full.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="height:20rem" data-border-radius="50%" alt="A picture of Judith Canner"></p>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
-<p>Judith Canner is a Professor of Statistics in the Department of Mathematics and Statistics at California State University Monterey Bay (CSUMB). She established the Statistics and Data Science Major, Statistics Minor, and the Data Science Minor at CSUMB and she the current Department Chair. In addition to her focus on the growth of the Statistics and Data Science Program at CSUMB, she is also the co-PI on an NSF S-STEM grant to support scholarships for statistics and data science undergraduates, the CA Learning Lab Grant to build faculty development groups in data science, and a NSF iUSE grant to research equitable pair programming pedagogy in the data science classroom. In her free time, she enjoys hiking, camping, and learning Spanish.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="allison-theobold-phd" class="level3">
-<h3 class="anchored" data-anchor-id="allison-theobold-phd">Allison Theobold, PhD</h3>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[[30,70]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Allison_Theobold.jpg" class="rounded-circle img-fluid quarto-figure quarto-figure-left figure-img" style="height:20rem width:20rem" alt="A picture of Allison Theobold"></p>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
-<p>Allison Theobold is an Assistant Professor of Statistics at Cal Poly, where they teach statistics and data science across undergraduate and graduate programs. Allison’s research focuses on educational environments that support students’ disciplinary identities and data science learning pathways. Outside of work, Allison enjoys running and biking in San Luis Obispo, watching women’s basketball, and sipping cortados.</p>
-</div>
-</div>
-</div>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[[80,20]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 80.0%;justify-content: flex-start;">
-<p>This material is based upon work supported by the National Science Foundation under Grant Numbers #2334989 and #2334988. <em>Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</em></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 20.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-right">
-<figure class="figure">
-<p><img src="images/NSF_Official_logo_High_Res_1200ppi.png" class="img-fluid quarto-figure quarto-figure-right figure-img" style="height:10em" alt="NSF logo featuring a blue globe with white NSF letters in front, surrounded by a gold gear-like border."></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
+<section id="once-youre-finished" class="level2">
+<h2 class="anchored" data-anchor-id="once-youre-finished">Once You’re Finished</h2>
+<p>At the end of the task, your group will have one completed Quarto document and one rendered HTML, containing your groups’ worked-out solutions and justifications. <strong>Everyone</strong> must take turns writing the final product (as described above) and <strong>everyone</strong> must be able to explain every line of code in your final document.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -822,6 +850,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../group-tasks/week-1/broken-circles.html" class="pagination-link" aria-label="Broken Circles">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Broken Circles</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../group-tasks/week-4/pa-3-ggplot.html" class="pagination-link" aria-label="`ggplot2` Peer Activity">
+        <span class="nav-page-text"><code>ggplot2</code> Peer Activity</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

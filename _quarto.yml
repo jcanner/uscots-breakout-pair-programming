@@ -33,7 +33,7 @@ website:
     collapse-level: 1
     contents:
       - text: "Breakout Session Slides"
-        href: presentation/breakout-pair-programming-slides.qmd
+        href: (presentation/breakout-pair-programming-slides.qmd){target="_blank"}
       - section: "Breakout Session Activities"
         contents:
           - href: group-tasks/week-1/broken-circles.qmd

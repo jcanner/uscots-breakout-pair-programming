@@ -1,7 +1,17 @@
 ---
 title: "Pair Programming Roles"
-format: docx
+format: html
 ---
+
+::: {.callout-note}
+## Pair Programming Card
+
+In class, we provide a pair programming card with the following information. Here is a word version you can use in your own classroom.
+
+[Pair Programming Card](pair-programming-norms.docx)
+
+:::
+
 During our in-class activities, you will be paired with another student.
 When completing the activity, you will rotate between the following
 roles as directed:

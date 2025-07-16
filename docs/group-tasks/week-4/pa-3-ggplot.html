@@ -63,7 +63,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../group-tasks/pair-programming-norms.docx" rel="prev">
+<link href="../../group-tasks/pair-programming-norms.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -146,7 +146,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../presentation/breakout-pair-programming-slides.html" class="sidebar-item-text sidebar-link">
+  <a href="../../(presentation/breakout-pair-programming-slides.qmd){target=&quot;_blank&quot;}" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Breakout Session Slides</span></a>
   </div>
 </li>
@@ -167,7 +167,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../group-tasks/pair-programming-norms.docx" class="sidebar-item-text sidebar-link">
+  <a href="../../group-tasks/pair-programming-norms.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Peer Programming Protocol</span></a>
   </div>
 </li>
@@ -343,17 +343,26 @@ Student Activity
 <li>Which species of penguins is represented the <strong>least</strong> in the <code>penguins</code> data set?</li>
 </ol>
 <div class="cell">
-<div class="cell-output-display no-overflow-x">
-<form name="form_34855" onsubmit="return validate_form_34855()" method="post">
-<select name="answer_34855">
-<option>Chinstrap</option>
-</select>
+<div class="cell-output-display">
+<form name="form_11864" onsubmit="return validate_form_11864()" method="post">
+<input type="radio" name="answer_11864" id="answer_11864_1" value="Adelie">
+<label>Adelie</label>
+<br>
+<input type="radio" name="answer_11864" id="answer_11864_2" value="Chinstrap">
+<label>Chinstrap</label>
+<br>
+<input type="radio" name="answer_11864" id="answer_11864_3" value="Gentoo">
+<label>Gentoo</label>
+<br>
+<input type="radio" name="answer_11864" id="answer_11864_4" value="Torgerson">
+<label>Torgerson</label>
+<br>
 <input type="submit" value="Check Your Answer">
-<div id="result_34855"></div>
+<div id="result_11864"></div>
 </form>
-<script>function validate_form_34855() {var x, text; var x = document.forms['form_34855']['answer_34855'].value;if (x == 'Adelie'|x == 'Chinstrap'|x == 'Gentoo'|x == 'Torgerson'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_34855').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_11864() {var x, text; var x = document.forms['form_11864']['answer_11864'].value;if (x == 'Chinstrap'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_11864').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1;res1 = document.getElementById('result_34855').innerText == 'Great Job!';text = res1;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1;res1 = document.getElementById('result_11864').innerText == 'Great Job!';text = res1;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -363,16 +372,25 @@ Student Activity
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_7125" onsubmit="return validate_form_7125()" method="post">
-<input type="checkbox" id="answer_7125_1" value="Gentoo">
+<form name="form_7263" onsubmit="return validate_form_7263()" method="post">
+<input type="checkbox" id="answer_7263_1" value="Adelie">
+<label>Adelie</label>
+<br>
+<input type="checkbox" id="answer_7263_2" value="Chinstrap">
+<label>Chinstrap</label>
+<br>
+<input type="checkbox" id="answer_7263_3" value="Gentoo">
 <label>Gentoo</label>
 <br>
+<input type="checkbox" id="answer_7263_4" value="Torgerson">
+<label>Torgerson</label>
+<br>
 <input type="submit" value="Check Your Answer">
-<div id="result_7125"></div>
+<div id="result_7263"></div>
 </form>
-<script>function validate_form_7125() {var text; var x1 = document.getElementById('answer_7125_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_7125').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_7263() {var text; var x1 = document.getElementById('answer_7263_1'); var x2 = document.getElementById('answer_7263_2'); var x3 = document.getElementById('answer_7263_3'); var x4 = document.getElementById('answer_7263_4'); if (x1.checked == false&x2.checked == false&x3.checked == true&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_7263').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!';text = res1 + res2;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2;res1 = document.getElementById('result_11864').innerText == 'Great Job!'; res2 = document.getElementById('result_7263').innerText == 'Great Job!';text = res1 + res2;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -382,16 +400,25 @@ Student Activity
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_70711" onsubmit="return validate_form_70711()" method="post">
-<input type="checkbox" id="answer_70711_1" value="Chinstrap">
+<form name="form_25893" onsubmit="return validate_form_25893()" method="post">
+<input type="checkbox" id="answer_25893_1" value="Adelie">
+<label>Adelie</label>
+<br>
+<input type="checkbox" id="answer_25893_2" value="Chinstrap">
 <label>Chinstrap</label>
 <br>
+<input type="checkbox" id="answer_25893_3" value="Gentoo">
+<label>Gentoo</label>
+<br>
+<input type="checkbox" id="answer_25893_4" value="Torgerson">
+<label>Torgerson</label>
+<br>
 <input type="submit" value="Check Your Answer">
-<div id="result_70711"></div>
+<div id="result_25893"></div>
 </form>
-<script>function validate_form_70711() {var text; var x1 = document.getElementById('answer_70711_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_70711').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_25893() {var text; var x1 = document.getElementById('answer_25893_1'); var x2 = document.getElementById('answer_25893_2'); var x3 = document.getElementById('answer_25893_3'); var x4 = document.getElementById('answer_25893_4'); if (x1.checked == false&x2.checked == true&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_25893').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!';text = res1 + res2 + res3;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3;res1 = document.getElementById('result_11864').innerText == 'Great Job!'; res2 = document.getElementById('result_7263').innerText == 'Great Job!'; res3 = document.getElementById('result_25893').innerText == 'Great Job!';text = res1 + res2 + res3;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -401,16 +428,25 @@ Student Activity
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_5268" onsubmit="return validate_form_5268()" method="post">
-<input type="checkbox" id="answer_5268_1" value="Adelie">
+<form name="form_27315" onsubmit="return validate_form_27315()" method="post">
+<input type="checkbox" id="answer_27315_1" value="Adelie">
 <label>Adelie</label>
 <br>
+<input type="checkbox" id="answer_27315_2" value="Chinstrap">
+<label>Chinstrap</label>
+<br>
+<input type="checkbox" id="answer_27315_3" value="Gentoo">
+<label>Gentoo</label>
+<br>
+<input type="checkbox" id="answer_27315_4" value="Torgerson">
+<label>Torgerson</label>
+<br>
 <input type="submit" value="Check Your Answer">
-<div id="result_5268"></div>
+<div id="result_27315"></div>
 </form>
-<script>function validate_form_5268() {var text; var x1 = document.getElementById('answer_5268_1'); if (x1.checked == true){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_5268').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_27315() {var text; var x1 = document.getElementById('answer_27315_1'); var x2 = document.getElementById('answer_27315_2'); var x3 = document.getElementById('answer_27315_3'); var x4 = document.getElementById('answer_27315_4'); if (x1.checked == true&x2.checked == false&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_27315').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3, res4;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!'; res4 = document.getElementById('result_5268').innerText == 'Great Job!';text = res1 + res2 + res3 + res4;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4;res1 = document.getElementById('result_11864').innerText == 'Great Job!'; res2 = document.getElementById('result_7263').innerText == 'Great Job!'; res3 = document.getElementById('result_25893').innerText == 'Great Job!'; res4 = document.getElementById('result_27315').innerText == 'Great Job!';text = res1 + res2 + res3 + res4;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -419,17 +455,26 @@ Student Activity
 <li>Color deficiencies can make differentiating groups difficult—what aesthetic could you add to your plot to double encode species?</li>
 </ol>
 <div class="cell">
-<div class="cell-output-display no-overflow-x">
-<form name="form_89902" onsubmit="return validate_form_89902()" method="post">
-<select name="answer_89902">
-<option>shape</option>
-</select>
+<div class="cell-output-display">
+<form name="form_6022" onsubmit="return validate_form_6022()" method="post">
+<input type="radio" name="answer_6022" id="answer_6022_1" value="group">
+<label>group</label>
+<br>
+<input type="radio" name="answer_6022" id="answer_6022_2" value="linetype">
+<label>linetype</label>
+<br>
+<input type="radio" name="answer_6022" id="answer_6022_3" value="shape">
+<label>shape</label>
+<br>
+<input type="radio" name="answer_6022" id="answer_6022_4" value="alpha">
+<label>alpha</label>
+<br>
 <input type="submit" value="Check Your Answer">
-<div id="result_89902"></div>
+<div id="result_6022"></div>
 </form>
-<script>function validate_form_89902() {var x, text; var x = document.forms['form_89902']['answer_89902'].value;if (x == 'group'|x == 'linetype'|x == 'shape'|x == 'alpha'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_89902').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_6022() {var x, text; var x = document.forms['form_6022']['answer_6022'].value;if (x == 'shape'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_6022').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3, res4, res5;res1 = document.getElementById('result_34855').innerText == 'Great Job!'; res2 = document.getElementById('result_7125').innerText == 'Great Job!'; res3 = document.getElementById('result_70711').innerText == 'Great Job!'; res4 = document.getElementById('result_5268').innerText == 'Great Job!'; res5 = document.getElementById('result_89902').innerText == 'Great Job!';text = res1 + res2 + res3 + res4 + res5;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4, res5;res1 = document.getElementById('result_11864').innerText == 'Great Job!'; res2 = document.getElementById('result_7263').innerText == 'Great Job!'; res3 = document.getElementById('result_25893').innerText == 'Great Job!'; res4 = document.getElementById('result_27315').innerText == 'Great Job!'; res5 = document.getElementById('result_6022').innerText == 'Great Job!';text = res1 + res2 + res3 + res4 + res5;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -1002,7 +1047,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../group-tasks/pair-programming-norms.docx" class="pagination-link" aria-label="Peer Programming Protocol">
+      <a href="../../group-tasks/pair-programming-norms.html" class="pagination-link" aria-label="Peer Programming Protocol">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Peer Programming Protocol</span>
       </a>          
   </div>
