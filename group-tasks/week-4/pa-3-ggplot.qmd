@@ -5,6 +5,8 @@ editor: source
 execute: 
   echo: true
   error: true
+resources:
+  - pa-3-ggplot-student.qmd
 ---
 
 ```{r}
@@ -65,7 +67,7 @@ Remember, your group is expected to adhere to the following norms:
 
 To reduce text in the activity the students are working on, the `quarto` document provided removes some of the prior text.
 
-- [Peer Activity: Quarto Document](pa-3-ggplot2-student.qmd)
+- [Peer Activity: Quarto Document](pa-3-ggplot-student.qmd)
 
 - [Peer Activity: Google Colab](https://colab.research.google.com/drive/1j4nwGxk__CCoQqlFI0ctfXt9x-qCZiuJ?usp=sharing)
 
