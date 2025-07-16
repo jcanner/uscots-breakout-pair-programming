@@ -39,7 +39,14 @@
     "href": "presentation/breakout-pair-programming-slides.html#training-students-in-equitable-collaboration",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Training Students in Equitable Collaboration",
-    "text": "Training Students in Equitable Collaboration\n\nComplex InstructionRoles & NormsGroup-worthy TasksStatus & Accountability\n\n\nCI as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997).\n{.fig-alt=“Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states”Manage”.}\n\n\nDevelop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation\n\n\nProvide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.\n\n\nAttending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding."
+    "text": "Training Students in Equitable Collaboration\nComplex Instruction as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997)."
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#complex-instruction",
+    "href": "presentation/breakout-pair-programming-slides.html#complex-instruction",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "Complex Instruction",
+    "text": "Complex Instruction\n\nRoles & NormsGroup-worthy TasksStatus & Accountability\n\n\n\nDevelop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation\n\n\n\n\nProvide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.\n\n\n\n\nAttending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#broken-circles-discussion",
@@ -74,7 +81,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#roles-in-pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Roles in Pair Programming",
-    "text": "Roles in Pair Programming\n\nCoder: Proposes Solution StrategiesDeveloper: Evaluates Solution Strategies\n\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder."
+    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
