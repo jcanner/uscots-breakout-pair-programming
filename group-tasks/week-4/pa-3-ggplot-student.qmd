@@ -48,7 +48,7 @@ I like to tangibly see the data set I will be working with so let's pull the `pe
 data(penguins)
 ```
 
-<!-- Change roles (Developer becomes Coder)! -->
+
 
 ## Step 4: Get to Know the Data
 
@@ -82,7 +82,6 @@ Use `ggplot2` to create a scatterplot of the relationship between the bill lengt
 
 ## Step 7: Adding A Categorical Variable
 
-<!-- Change roles (Developer becomes Coder)! -->
 
 Building off of the plot you made in Step 6, add an aesthetic to differentiate the species of the penguins in the scatterplot by color.
 
