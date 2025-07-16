@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PA 3: Using Data Visualization to Find the Penguins – Introduction to Statistical Computing in R</title>
+<title>PA 3: Using Data Visualization to Find the Penguins – Research-Based Practices for Integrating Pair Programming in the Classroom</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,29 +58,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../group-tasks/week-1/broken-circles.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-dd01fc8b47943ccb281ee7996e9eafb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-760729c915d1dde12ab269fcb4c0541b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-17141b33290ff6876ea60ab419f5fc79.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -102,93 +100,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 
 
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../group-tasks/week-1/broken-circles.html">Breakout Session Activities</a></li><li class="breadcrumb-item"><a href="../../group-tasks/week-4/pa-3-ggplot.html"><code>ggplot2</code> Peer Activity</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../bios.html"> 
+<span class="menu-text">Presenters</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../presentation/breakout-pair-programming-slides.html"> 
+<span class="menu-text">Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../group-tasks/pair-programming-norms.html"> 
+<span class="menu-text">Peer Programming Protocol</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-breakout-session-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Breakout Session Activities</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-breakout-session-activities">    
+        <li>
+    <a class="dropdown-item" href="../../group-tasks/week-1/broken-circles.html">
+ <span class="dropdown-text">Broken Circles</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../group-tasks/week-4/pa-3-ggplot.html">
+ <span class="dropdown-text">ggplot2 Peer Activity</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/atheobold/uscots-intermediate-r"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/r-flowers.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-      <div class="sidebar-tools-main">
-    <a href="https://github.com/jcanner/uscots-breakout-pair-programming" title="GitHub Repo" class="quarto-navigation-tool px-1" aria-label="GitHub Repo"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../presentation/breakout-pair-programming-slides.html" class="sidebar-item-text sidebar-link" target="_blank">
- <span class="menu-text">Breakout Session Slides</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../group-tasks/pair-programming-norms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Peer Programming Protocol</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Breakout Session Activities</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../group-tasks/week-1/broken-circles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Broken Circles</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../group-tasks/week-4/pa-3-ggplot.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><code>ggplot2</code> Peer Activity</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -215,12 +192,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#canvas-quiz" id="toc-canvas-quiz" class="nav-link" data-scroll-target="#canvas-quiz">Canvas Quiz</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/atheobold/groupworthy-data-science/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jcanner/uscots-breakout-pair-programming/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../group-tasks/week-1/broken-circles.html">Breakout Session Activities</a></li><li class="breadcrumb-item"><a href="../../group-tasks/week-4/pa-3-ggplot.html"><code>ggplot2</code> Peer Activity</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">PA 3: Using Data Visualization to Find the Penguins</h1>
 </div>
@@ -252,7 +229,7 @@ Task Card
 </div>
 <div class="callout-body-container callout-body">
 <p>Here is an example of the task card provided to students as a reminder during this activity.</p>
-<p><a href="../../group-tasks/week-4/pa-3-task-card.pdf">Peer Activity 3: Find the Penguins</a></p>
+<p><a href="../../group-tasks/week-4/pa-3-task-card.html">Peer Activity 3: Find the Penguins</a></p>
 </div>
 </div>
 <p>Some advice: If you aren’t sure how to make a specific plot or how to customize a look over the class text for this week and make use of the <a href="https://rstudio.github.io/cheatsheets/html/data-visualization.html?_gl=1*1u8zjpq*_ga*MTM4Nzk4ODMyOC4xNzA2NzU3MjEx*_ga_2C0WZ1JHG0*MTcxODkxNjU5Ny43LjAuMTcxODkxNjU5Ny4wLjAuMA">ggplot2 cheatsheet</a>.</p>
@@ -352,25 +329,25 @@ Student Activity
 <h4 class="anchored" data-anchor-id="which-species-of-penguins-is-represented-the-least-in-the-penguins-data-set">1. Which species of penguins is represented the <strong>least</strong> in the <code>penguins</code> data set?</h4>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_62171" onsubmit="return validate_form_62171()" method="post">
-<input type="radio" name="answer_62171" id="answer_62171_1" value="Adelie">
+<form name="form_12659" onsubmit="return validate_form_12659()" method="post">
+<input type="radio" name="answer_12659" id="answer_12659_1" value="Adelie">
 <label>Adelie</label>
 <br>
-<input type="radio" name="answer_62171" id="answer_62171_2" value="Chinstrap">
+<input type="radio" name="answer_12659" id="answer_12659_2" value="Chinstrap">
 <label>Chinstrap</label>
 <br>
-<input type="radio" name="answer_62171" id="answer_62171_3" value="Gentoo">
+<input type="radio" name="answer_12659" id="answer_12659_3" value="Gentoo">
 <label>Gentoo</label>
 <br>
-<input type="radio" name="answer_62171" id="answer_62171_4" value="Torgerson">
+<input type="radio" name="answer_12659" id="answer_12659_4" value="Torgerson">
 <label>Torgerson</label>
 <br>
 <input type="submit" value="Check Your Answer">
-<div id="result_62171"></div>
+<div id="result_12659"></div>
 </form>
-<script>function validate_form_62171() {var x, text; var x = document.forms['form_62171']['answer_62171'].value;if (x == 'Chinstrap'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_62171').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_12659() {var x, text; var x = document.forms['form_12659']['answer_12659'].value;if (x == 'Chinstrap'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_12659').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1;res1 = document.getElementById('result_62171').innerText == 'Great Job!';text = res1;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1;res1 = document.getElementById('result_12659').innerText == 'Great Job!';text = res1;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -380,25 +357,25 @@ Student Activity
 <h4 class="anchored" data-anchor-id="which-species-of-penguins-are-found-only-on-biscoe-island">2. Which species of penguins are found only on Biscoe Island?</h4>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_50106" onsubmit="return validate_form_50106()" method="post">
-<input type="checkbox" id="answer_50106_1" value="Adelie">
+<form name="form_22472" onsubmit="return validate_form_22472()" method="post">
+<input type="checkbox" id="answer_22472_1" value="Adelie">
 <label>Adelie</label>
 <br>
-<input type="checkbox" id="answer_50106_2" value="Chinstrap">
+<input type="checkbox" id="answer_22472_2" value="Chinstrap">
 <label>Chinstrap</label>
 <br>
-<input type="checkbox" id="answer_50106_3" value="Gentoo">
+<input type="checkbox" id="answer_22472_3" value="Gentoo">
 <label>Gentoo</label>
 <br>
-<input type="checkbox" id="answer_50106_4" value="Torgerson">
+<input type="checkbox" id="answer_22472_4" value="Torgerson">
 <label>Torgerson</label>
 <br>
 <input type="submit" value="Check Your Answer">
-<div id="result_50106"></div>
+<div id="result_22472"></div>
 </form>
-<script>function validate_form_50106() {var text; var x1 = document.getElementById('answer_50106_1'); var x2 = document.getElementById('answer_50106_2'); var x3 = document.getElementById('answer_50106_3'); var x4 = document.getElementById('answer_50106_4'); if (x1.checked == false&x2.checked == false&x3.checked == true&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_50106').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_22472() {var text; var x1 = document.getElementById('answer_22472_1'); var x2 = document.getElementById('answer_22472_2'); var x3 = document.getElementById('answer_22472_3'); var x4 = document.getElementById('answer_22472_4'); if (x1.checked == false&x2.checked == false&x3.checked == true&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_22472').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2;res1 = document.getElementById('result_62171').innerText == 'Great Job!'; res2 = document.getElementById('result_50106').innerText == 'Great Job!';text = res1 + res2;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2;res1 = document.getElementById('result_12659').innerText == 'Great Job!'; res2 = document.getElementById('result_22472').innerText == 'Great Job!';text = res1 + res2;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -408,25 +385,25 @@ Student Activity
 <h4 class="anchored" data-anchor-id="which-species-of-penguins-are-found-only-on-dream-island">3. Which species of penguins are found only on Dream Island?</h4>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_6632" onsubmit="return validate_form_6632()" method="post">
-<input type="checkbox" id="answer_6632_1" value="Adelie">
+<form name="form_50837" onsubmit="return validate_form_50837()" method="post">
+<input type="checkbox" id="answer_50837_1" value="Adelie">
 <label>Adelie</label>
 <br>
-<input type="checkbox" id="answer_6632_2" value="Chinstrap">
+<input type="checkbox" id="answer_50837_2" value="Chinstrap">
 <label>Chinstrap</label>
 <br>
-<input type="checkbox" id="answer_6632_3" value="Gentoo">
+<input type="checkbox" id="answer_50837_3" value="Gentoo">
 <label>Gentoo</label>
 <br>
-<input type="checkbox" id="answer_6632_4" value="Torgerson">
+<input type="checkbox" id="answer_50837_4" value="Torgerson">
 <label>Torgerson</label>
 <br>
 <input type="submit" value="Check Your Answer">
-<div id="result_6632"></div>
+<div id="result_50837"></div>
 </form>
-<script>function validate_form_6632() {var text; var x1 = document.getElementById('answer_6632_1'); var x2 = document.getElementById('answer_6632_2'); var x3 = document.getElementById('answer_6632_3'); var x4 = document.getElementById('answer_6632_4'); if (x1.checked == false&x2.checked == true&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_6632').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_50837() {var text; var x1 = document.getElementById('answer_50837_1'); var x2 = document.getElementById('answer_50837_2'); var x3 = document.getElementById('answer_50837_3'); var x4 = document.getElementById('answer_50837_4'); if (x1.checked == false&x2.checked == true&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_50837').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3;res1 = document.getElementById('result_62171').innerText == 'Great Job!'; res2 = document.getElementById('result_50106').innerText == 'Great Job!'; res3 = document.getElementById('result_6632').innerText == 'Great Job!';text = res1 + res2 + res3;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3;res1 = document.getElementById('result_12659').innerText == 'Great Job!'; res2 = document.getElementById('result_22472').innerText == 'Great Job!'; res3 = document.getElementById('result_50837').innerText == 'Great Job!';text = res1 + res2 + res3;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -436,25 +413,25 @@ Student Activity
 <h4 class="anchored" data-anchor-id="which-species-of-penguins-are-found-on-every-island">4. Which species of penguins are found on every island?</h4>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_16159" onsubmit="return validate_form_16159()" method="post">
-<input type="checkbox" id="answer_16159_1" value="Adelie">
+<form name="form_75750" onsubmit="return validate_form_75750()" method="post">
+<input type="checkbox" id="answer_75750_1" value="Adelie">
 <label>Adelie</label>
 <br>
-<input type="checkbox" id="answer_16159_2" value="Chinstrap">
+<input type="checkbox" id="answer_75750_2" value="Chinstrap">
 <label>Chinstrap</label>
 <br>
-<input type="checkbox" id="answer_16159_3" value="Gentoo">
+<input type="checkbox" id="answer_75750_3" value="Gentoo">
 <label>Gentoo</label>
 <br>
-<input type="checkbox" id="answer_16159_4" value="Torgerson">
+<input type="checkbox" id="answer_75750_4" value="Torgerson">
 <label>Torgerson</label>
 <br>
 <input type="submit" value="Check Your Answer">
-<div id="result_16159"></div>
+<div id="result_75750"></div>
 </form>
-<script>function validate_form_16159() {var text; var x1 = document.getElementById('answer_16159_1'); var x2 = document.getElementById('answer_16159_2'); var x3 = document.getElementById('answer_16159_3'); var x4 = document.getElementById('answer_16159_4'); if (x1.checked == true&x2.checked == false&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_16159').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_75750() {var text; var x1 = document.getElementById('answer_75750_1'); var x2 = document.getElementById('answer_75750_2'); var x3 = document.getElementById('answer_75750_3'); var x4 = document.getElementById('answer_75750_4'); if (x1.checked == true&x2.checked == false&x3.checked == false&x4.checked == false){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_75750').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3, res4;res1 = document.getElementById('result_62171').innerText == 'Great Job!'; res2 = document.getElementById('result_50106').innerText == 'Great Job!'; res3 = document.getElementById('result_6632').innerText == 'Great Job!'; res4 = document.getElementById('result_16159').innerText == 'Great Job!';text = res1 + res2 + res3 + res4;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4;res1 = document.getElementById('result_12659').innerText == 'Great Job!'; res2 = document.getElementById('result_22472').innerText == 'Great Job!'; res3 = document.getElementById('result_50837').innerText == 'Great Job!'; res4 = document.getElementById('result_75750').innerText == 'Great Job!';text = res1 + res2 + res3 + res4;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -464,25 +441,25 @@ Student Activity
 <h4 class="anchored" data-anchor-id="color-deficiencies-can-make-differentiating-groups-difficultwhat-aesthetic-could-you-add-to-your-plot-to-double-encode-species">5. Color deficiencies can make differentiating groups difficult—what aesthetic could you add to your plot to double encode species?</h4>
 <div class="cell">
 <div class="cell-output-display">
-<form name="form_9721" onsubmit="return validate_form_9721()" method="post">
-<input type="radio" name="answer_9721" id="answer_9721_1" value="group">
+<form name="form_97470" onsubmit="return validate_form_97470()" method="post">
+<input type="radio" name="answer_97470" id="answer_97470_1" value="group">
 <label>group</label>
 <br>
-<input type="radio" name="answer_9721" id="answer_9721_2" value="linetype">
+<input type="radio" name="answer_97470" id="answer_97470_2" value="linetype">
 <label>linetype</label>
 <br>
-<input type="radio" name="answer_9721" id="answer_9721_3" value="shape">
+<input type="radio" name="answer_97470" id="answer_97470_3" value="shape">
 <label>shape</label>
 <br>
-<input type="radio" name="answer_9721" id="answer_9721_4" value="alpha">
+<input type="radio" name="answer_97470" id="answer_97470_4" value="alpha">
 <label>alpha</label>
 <br>
 <input type="submit" value="Check Your Answer">
-<div id="result_9721"></div>
+<div id="result_97470"></div>
 </form>
-<script>function validate_form_9721() {var x, text; var x = document.forms['form_9721']['answer_9721'].value;if (x == 'shape'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_9721').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
+<script>function validate_form_97470() {var x, text; var x = document.forms['form_97470']['answer_97470'].value;if (x == 'shape'){text = 'Great Job!';} else {text = 'Try Again';} document.getElementById('result_97470').innerHTML = text; evaluate_final_score(); return false;}function evaluate_final_score(){
          element = document.getElementById('checkdown_final_score');
-         if(element === null){return false;} else {var element, text, res1, res2, res3, res4, res5;res1 = document.getElementById('result_62171').innerText == 'Great Job!'; res2 = document.getElementById('result_50106').innerText == 'Great Job!'; res3 = document.getElementById('result_6632').innerText == 'Great Job!'; res4 = document.getElementById('result_16159').innerText == 'Great Job!'; res5 = document.getElementById('result_9721').innerText == 'Great Job!';text = res1 + res2 + res3 + res4 + res5;element.innerHTML = text;
+         if(element === null){return false;} else {var element, text, res1, res2, res3, res4, res5;res1 = document.getElementById('result_12659').innerText == 'Great Job!'; res2 = document.getElementById('result_22472').innerText == 'Great Job!'; res3 = document.getElementById('result_50837').innerText == 'Great Job!'; res4 = document.getElementById('result_75750').innerText == 'Great Job!'; res5 = document.getElementById('result_97470').innerText == 'Great Job!';text = res1 + res2 + res3 + res4 + res5;element.innerHTML = text;
          return false;
          }}</script>
 </div>
@@ -513,150 +490,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -727,7 +560,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/github\.com\/atheobold\/groupworthy-data-science");
+      var filterRegex = new RegExp("https:\/\/github\.com\/jcanner\/uscots-breakout-pair-programming");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1054,15 +887,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../../group-tasks/week-1/broken-circles.html" class="pagination-link" aria-label="Broken Circles">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Broken Circles</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -1071,7 +895,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/atheobold/groupworthy-data-science/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/jcanner/uscots-breakout-pair-programming/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
