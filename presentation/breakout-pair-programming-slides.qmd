@@ -20,9 +20,14 @@ format:
   - Discussion
 - Classroom Integration
 
+## Ice-Breaker
+
+Find someone with whom you have **three** things in common (that do not include Statistics/academia).
 
 ## Pair Programming History
 
+- Originated in Computer Science 
+- Common in academia and industry
 
 
 ## Pair Programming Challenges
