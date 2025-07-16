@@ -4,7 +4,7 @@ author: "Judith Canner, Allison Theobold"
 institute: "Cal State, Monterey Bay, Cal Poly, San Luis Obispo"
 format: 
   revealjs:
-    theme: sky
+    theme: [sky, styles.scss]
     slide-number: c/t
     self-contained: true
 ---
@@ -50,28 +50,34 @@ Programmers alternate who is the “driver,” responsible for designing, typing
 
 ## Training Students in Equitable Collaboration
 
-::: {.panel-tabset}
+Complex Instruction as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997). 
+
+![](images/complex instruction.png){fig-alt="Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states 'Manage'."}
+
+<!-- ALLISON Add to slide! -->
+<!-- Hold 2012 -->
 
 ## Complex Instruction
 
-CI as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997). 
+::: {.panel-tabset}
 
-![Hold 2012](images/complex instruction.png){.fig-alt="Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states "Manage".}
+## [Roles & Norms]{.small}
 
-## Roles & Norms
-
+::: {.midi}
 Develop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation
+:::
 
+## [Group-worthy Tasks]{.small}
 
-## Group-worthy Tasks
-
+::: {.midi}
 Provide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.
+:::
 
+## [Status & Accountability]{.small}
 
-## Status & Accountability
-
+::: {.midi}
 Attending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding.
-
+:::
 ::: 
 
 # [Activity 1: Broken Circles](../group-tasks/week-1/broken-circles.qmd){target=_blank}
@@ -144,24 +150,32 @@ How do we know our group is engaging in equtiable participation?
 
 ## Roles in Pair Programming
 
-::: {.panel-tabset}
+::: columns
+::: {.column width="50%"}
+Coder: Proposes Solution Strategies
 
-## Coder: Proposes Solution Strategies
-
+::: {.small}
 - Reads out instructions or prompts
 - Directs the Developer what to type in the Quarto document in RStudio
 - Talks with Developer about ideas related to ways they could solve the problem.
 - Manages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.
+:::
+:::
 
-## Developer: Evaluates Solution Strategies
+::: {.column width="50%"}
+::: {.fragment}
+Developer: Evaluates Solution Strategies
 
+::: {.small}
 - Asks the instructor group questions.
 - Types the code specified by the Coder into the Quarto document. 
 - Listens carefully, asks the Coder to repeat statements if needed, or to slow down.
 - Encourages the Coder to vocalize their thinking.
 - Asks the Coder clarifying questions.
 - Runs the code provided by the Coder.
-
+:::
+:::
+:::
 :::
 
 # [Activity 2: Find the Penguins](../group-tasks/week-4/pa-3-ggplot.qmd){target=_blank}
@@ -210,7 +224,6 @@ This puzzle activity will require knowledge of:
 - how to make visualizations with **ggplot2**
 - choosing between different aesthetic options
 :::
-
 :::
 
 ::: {.column width="5%"}
@@ -301,7 +314,7 @@ During your collaboration, you and your partner will alternate between two roles
 Every group should have a **ggplot2** cheatsheet! 
 
 ::: columns
-::: {.column width="37%"}
+::: {.column width="33%"}
 ::: {.fragment}
 **On the Front**
 
@@ -318,7 +331,7 @@ Every group should have a **ggplot2** cheatsheet!
 ::: {.column width="3%"}
 :::
 
-::: {.column width="37%"}
+::: {.column width="30%"}
 ::: {.fragment}
 **On the Back**
 
@@ -334,7 +347,7 @@ Every group should have a **ggplot2** cheatsheet!
 ::: {.column width="3%"}
 :::
 
-::: {.column width="15%"}
+::: {.column width="30%"}
 ![](images/ggplot-cheatsheet.png){fig-alt="A picture of the ggplot2 cheatsheet, which contains helpful information on assembling a variety of visualizations all using the ggplot2 package."}
 
 :::
