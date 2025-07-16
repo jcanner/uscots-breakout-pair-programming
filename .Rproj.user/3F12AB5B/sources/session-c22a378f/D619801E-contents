@@ -1,24 +1,40 @@
 ---
-title: "Research-Based Practices for Integrating Pair Programming in the Classroom"
+title: "Research-Based Practices \\ for Integrating \\ Pair Programming \\ in the Classroom"
 subtitle: "USCOTS 2025 Breakout Session"
-author: "Judith Cannerm Allison Theobold"
+author: "Judith Canner, Allison Theobold"
 institute: "1. Cal State, Monterey Bay, 2. Cal Poly, San Luis Obispo"
 format: 
   revealjs:
+    theme: sky
     slide-number: c/t
     self-contained: true
 ---
 
 ## Overview
 
+- Pair Programming
+- Establishing Equitable Participation
+  - Broken Circles Activity
+  - Discussion
+  - Pair Programming Activity
+  - Discussion
+- Classroom Integration
 
-## Pair Programming
 
+## Pair Programming History
+
+
+
+## Pair Programming Challenges
+
+
+
+
+
+## Training Students in Equitable Collaboration
 
 
 # [Activity 1: Broken Circles](../group-tasks/week-1/broken-circles.qmd)
-
-
 
 
 ## Broken Circles Discussion
@@ -29,19 +45,26 @@ format:
 -   What are some behaviors that could be implemented in the future to make cooperation easier?
 
 
-## Establishing Norms (and Revisiting Them)
+## Establishing Norms 
 
 We can't just say “you need to work together”, we need to say “you work together by…”
 
 <!-- It is important to draw direct links between the norms and behaviors that we see because the desired behaviors we are training the students for really do need to be specific and not broad. For example.  -->
 
+::: {.incremental}
 - Not doing the task for another person
 
 - Not just giving an answer but an explanation
 
 - Providing concise sharing / description of what is being done and reasoning for why it's being done
 
+::: 
+
 ## Equitable Participaiton Training Procedures
+
+What behaviors encourage equitable participation?
+
+::: {.incremental}
 
 - Say your own ideas
 
@@ -53,7 +76,13 @@ We can't just say “you need to work together”, we need to say “you work to
 
 - Give reasons for your ideas and discuss any and every different idea
 
+:::
+
 ## Evaluating Group Participation
+
+How do we know our group is engaging in equtiable participation?
+
+::: {.incremental}
 
 - Is everyone talking?
 
@@ -67,13 +96,34 @@ We can't just say “you need to work together”, we need to say “you work to
 
 - How do you ask for reasons from others?
 
+:::
 
 
 
-## Pair Programming Protocols
+# Pair Programming Protocols
+
+## Roles in Pair Programming
 
 
 
+## Examples
 
 
-## Activity 2: Find the Penguin
+
+# Activity 2: Find the Penguin
+
+## Establishing Norms
+
+
+## Discussion
+
+# Classroom Integration
+
+## Think about your classes...
+
+- How does within your current classes/teaching?
+- How do you think this would help?
+- What challenges? What opportunities?
+- What the instructor role during this activity?
+
+

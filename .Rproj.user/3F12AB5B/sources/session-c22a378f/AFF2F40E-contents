@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render: 
     - "*.qmd"
+    - "!*-student.qmd"
 
 website:
   page-navigation: true
@@ -31,9 +32,8 @@ website:
     search: true
     collapse-level: 1
     contents:
-      - section: "Presentation"
-          - href: presentation/breakout-pair-programming-slides.qmd
-          - text: "Breakout Session Slides"
+      - text: "Breakout Session Slides"
+        href: presentation/breakout-pair-programming-slides.qmd
       - section: "Breakout Session Activities"
         contents:
           - href: group-tasks/week-1/broken-circles.qmd
