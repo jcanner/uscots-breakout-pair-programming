@@ -37,12 +37,12 @@ website:
       - text: "Breakout Session Slides"
         href: presentation/breakout-pair-programming-slides.qmd
         target: _blank
+      - href: group-tasks/pair-programming-norms.qmd
+        text: "Peer Programming Protocol"
       - section: "Breakout Session Activities"
         contents:
           - href: group-tasks/week-1/broken-circles.qmd
             text: "Broken Circles" 
-          - href: group-tasks/pair-programming-norms.qmd
-            text: "Peer Programming Protocol"
           - href: group-tasks/week-4/pa-3-ggplot.qmd
             text: "`ggplot2` Peer Activity"           
 
