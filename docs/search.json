@@ -195,9 +195,8 @@
     "href": "group-tasks/pair-programming-norms.html",
     "title": "Pair Programming Roles",
     "section": "",
-    "text": "Pair Programming Card\n\n\n\nIn class, we provide a pair programming card with the following information. Here is a word version you can use in your own classroom.\nPair Programming Card\nDuring our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles as directed:",
+    "text": "Warning\n\n\n\nNote that these role and norm descriptions represent the pair programming protocols used in our 2024-2025 pilot. New protocols may be available.\nDuring our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles as directed:",
     "crumbs": [
-      "Breakout Session Activities",
       "Peer Programming Protocol"
     ]
   },
@@ -208,7 +207,6 @@
     "section": "Group Norms",
     "text": "Group Norms\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!",
     "crumbs": [
-      "Breakout Session Activities",
       "Peer Programming Protocol"
     ]
   },
@@ -219,7 +217,6 @@
     "section": "Completing the Task",
     "text": "Completing the Task\nWorking with your partner, complete the Practice Activity in the Quarto document provided. In your roles—Coder and Developer—use the prompts below to help guide the completion of your activity.\n\n\nCoder\nI am looking for…\nI am confused by…\nI notice…\nWhat might be true is…\nWhat’s important is…\nI predict…\nThis reminds me of…\nWhat if we…\nWe could try…\nI am thinking about…\nA line of code I could write is…\n\n\n\nDeveloper\n\nDo you understand what we need to do?\nWhat’s the question we have for Dr. Theobold? Can we answer the question ourselves?\nWhat are you focusing on?\nWhat are you thinking now?\nCould you tell me more?\nWhat are you doing (or writing) now? Please elaborate.\nI can’t follow that, run that by me again.\n What other sources of information do we need?\nWhich words should we look up?\nWhat else do we need to complete this problem?",
     "crumbs": [
-      "Breakout Session Activities",
       "Peer Programming Protocol"
     ]
   },
@@ -230,7 +227,6 @@
     "section": "Once You’re Finished",
     "text": "Once You’re Finished\nAt the end of the task, your group will have one completed Quarto document and one rendered HTML, containing your groups’ worked-out solutions and justifications. Everyone must take turns writing the final product (as described above) and everyone must be able to explain every line of code in your final document.",
     "crumbs": [
-      "Breakout Session Activities",
       "Peer Programming Protocol"
     ]
   },
@@ -250,7 +246,7 @@
     "href": "group-tasks/week-4/pa-3-ggplot.html#groupwork-protocols",
     "title": "PA 3: Using Data Visualization to Find the Penguins",
     "section": "Groupwork Protocols",
-    "text": "Groupwork Protocols\nDuring the Practice Activity, you and your partner will alternate between two roles—Developer and Coder.\nWhen you are the Developer, you will type into the Quarto document in RStudio. However, you do not type your own ideas. Instead, you type what the Coder tells you to type. You are permitted to ask the Coder clarifying questions, and, if both of you have a question, you are permitted to ask the professor. You are expected to run the code provided by the Coder and, if necessary, to work with the Coder to debug the code. Once the code runs, you are expected to collaborate with the Coder to write code comments that describe the actions taken by your code.\nWhen you are the Coder, you are responsible for reading the instructions / prompts and directing the Developer what to type in the Quarto document. You are responsible for managing the resources your group has available to you (e.g., cheatsheet, textbook). If necessary, you should work with the Developer to debug the code you specified. Once the code runs, you are expected to collaborate with the Developer to write code comments that describe the actions taken by your code.\n\nGroup Norms\nRemember, your group is expected to adhere to the following norms:\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nNo cross-talk with other groups.\n\n\n\n\n\n\n\nStudent Activity\n\n\n\nTo reduce text in the activity the students are working on, the quarto document provided removes some of the prior text.\nPeer Activity 3: Quarto Document",
+    "text": "Groupwork Protocols\nDuring the Practice Activity, you and your partner will alternate between two roles—Developer and Coder.\nWhen you are the Developer, you will type into the Quarto document in RStudio. However, you do not type your own ideas. Instead, you type what the Coder tells you to type. You are permitted to ask the Coder clarifying questions, and, if both of you have a question, you are permitted to ask the professor. You are expected to run the code provided by the Coder and, if necessary, to work with the Coder to debug the code. Once the code runs, you are expected to collaborate with the Coder to write code comments that describe the actions taken by your code.\nWhen you are the Coder, you are responsible for reading the instructions / prompts and directing the Developer what to type in the Quarto document. You are responsible for managing the resources your group has available to you (e.g., cheatsheet, textbook). If necessary, you should work with the Developer to debug the code you specified. Once the code runs, you are expected to collaborate with the Developer to write code comments that describe the actions taken by your code.\n\nGroup Norms\nRemember, your group is expected to adhere to the following norms:\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nNo cross-talk with other groups.\n\n\n\n\n\n\n\nStudent Activity\n\n\n\nTo reduce text in the activity the students are working on, the quarto document provided removes some of the prior text.\n\nPeer Activity: Quarto Document\nPeer Activity: Google Colab",
     "crumbs": [
       "Breakout Session Activities",
       "`ggplot2` Peer Activity"

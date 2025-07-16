@@ -65,7 +65,9 @@ Remember, your group is expected to adhere to the following norms:
 
 To reduce text in the activity the students are working on, the `quarto` document provided removes some of the prior text.
 
-[Peer Activity 3: Quarto Document](pa-3-ggplot2-student.qmd)
+- [Peer Activity: Quarto Document](pa-3-ggplot2-student.qmd)
+
+- [Peer Activity: Google Colab](https://colab.research.google.com/drive/1j4nwGxk__CCoQqlFI0ctfXt9x-qCZiuJ?usp=sharing)
 
 :::
 
@@ -163,7 +165,7 @@ Building off of the plot you made in Step 7, add the location of the penguins ( 
 Working together as a team, use the plots you both created to address the following questions on Canvas:
   
   
-1.  Which species of penguins is represented the **least** in the `penguins` data set?
+#### 1. Which species of penguins is represented the **least** in the `penguins` data set?
 
 ```{r}
 #| label: q1
@@ -181,7 +183,7 @@ check_question(options = c("Adelie",
 
 \vspace{2em}
 
-2.  Which species of penguins are found only on Biscoe Island?
+#### 2. Which species of penguins are found only on Biscoe Island?
 
 ```{r}
 #| label: q2
@@ -199,7 +201,7 @@ check_question(options = c("Adelie",
 
 \vspace{2em}
 
-3.  Which species of penguins are found only on Dream Island?
+#### 3. Which species of penguins are found only on Dream Island?
 
 ```{r}
 #| label: q3
@@ -218,7 +220,7 @@ check_question(options = c("Adelie",
 
 \vspace{2em}
 
-4.  Which species of penguins are found on every island?
+#### 4. Which species of penguins are found on every island?
 
 ```{r}
 #| label: q4
@@ -236,7 +238,7 @@ check_question(options = c("Adelie",
 
 \vspace{2em}
 
-5.  Color deficiencies can make differentiating groups difficult---what aesthetic could you add to your plot to double encode species?
+#### 5. Color deficiencies can make differentiating groups difficult---what aesthetic could you add to your plot to double encode species?
 
 ```{r}
 #| label: q5
