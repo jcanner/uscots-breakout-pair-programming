@@ -16,7 +16,7 @@ format:
 
 
 
-# [Activity 1: Broken Circles](group-tasks/week-1/broken-circles.qmd)
+# [Activity 1: Broken Circles](../group-tasks/week-1/broken-circles.qmd)
 
 
 
