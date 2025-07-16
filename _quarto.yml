@@ -24,6 +24,7 @@ website:
          text: Presenters
        - href: presentation/breakout-pair-programming-slides.qmd
          text: Slides
+         target: _blank
        - href: group-tasks/pair-programming-norms.qmd
          text: "Peer Programming Protocol"
        - text: Breakout Session Activities
