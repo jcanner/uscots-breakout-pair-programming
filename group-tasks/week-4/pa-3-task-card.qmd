@@ -1,8 +1,14 @@
 ---
 title: "PA 3 Task Card - Using Data Visualization to Find the Penguins"
-editor: source
-format: typst
 ---
+
+```{r}
+#| echo: false
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
 
 Today you will be exploring different types of visualizations to uncover which
 species of penguins reside on different islands.
