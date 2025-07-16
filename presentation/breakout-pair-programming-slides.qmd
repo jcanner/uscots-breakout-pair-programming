@@ -1,8 +1,8 @@
 ---
-title: "Research-Based Practices \\ for Integrating \\ Pair Programming \\ in the Classroom"
+title: "Research-Based Practices for Integrating Pair Programming in the Classroom"
 subtitle: "USCOTS 2025 Breakout Session"
 author: "Judith Canner, Allison Theobold"
-institute: "1. Cal State, Monterey Bay, 2. Cal Poly, San Luis Obispo"
+institute: "Cal State, Monterey Bay, Cal Poly, San Luis Obispo"
 format: 
   revealjs:
     theme: sky
@@ -22,7 +22,9 @@ format:
 
 ## Ice-Breaker
 
-Find someone with whom you have **three** things in common (that do not include Statistics/academia).
+Find someone with whom you have **three** things in common (that do not include Statistics/Academia).
+
+
 
 ## Pair Programming History
 

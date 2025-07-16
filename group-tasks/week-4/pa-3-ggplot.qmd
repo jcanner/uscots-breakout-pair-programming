@@ -161,7 +161,8 @@ Building off of the plot you made in Step 7, add the location of the penguins ( 
 # Canvas Quiz
 
 Working together as a team, use the plots you both created to address the following questions on Canvas:
-
+  
+  
 1.  Which species of penguins is represented the **least** in the `penguins` data set?
 
 ```{r}
@@ -178,7 +179,7 @@ check_question(options = c("Adelie",
                button_label = "Check Your Answer")
 ```
 
-
+\vspace{2em}
 
 2.  Which species of penguins are found only on Biscoe Island?
 
@@ -196,6 +197,8 @@ check_question(options = c("Adelie",
                button_label = "Check Your Answer")
 ```
 
+\vspace{2em}
+
 3.  Which species of penguins are found only on Dream Island?
 
 ```{r}
@@ -211,6 +214,9 @@ check_question(options = c("Adelie",
                type = "checkbox", 
                button_label = "Check Your Answer")
 ```
+
+
+\vspace{2em}
 
 4.  Which species of penguins are found on every island?
 
@@ -228,6 +234,7 @@ check_question(options = c("Adelie",
                button_label = "Check Your Answer")
 ```
 
+\vspace{2em}
 
 5.  Color deficiencies can make differentiating groups difficult---what aesthetic could you add to your plot to double encode species?
 
