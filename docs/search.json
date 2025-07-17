@@ -25,7 +25,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Pair Programming",
-    "text": "Pair Programming\nProgrammers alternate who is the “driver,” responsible for designing, typing the code, and having control over the shared resource (e.g., computer, mouse, and keyboard), and the “navigator,” responsible for providing support to identify errors, offer ideas, or opportunities for improvement (Williams and Kessler, 2002)."
+    "text": "Pair Programming\nProgrammers alternate who is the “driver” and “navigator” (Williams and Kessler, 2002)\n\nThe Driver is responsible for designing, typing the code, and having control over the shared resource (e.g., computer, mouse, and keyboard)\n\nThe Navigator is responsible for providing support to identify errors, offer ideas, or opportunities for improvement."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#pair-programming-challenges",
@@ -81,7 +81,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#roles-in-pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Roles in Pair Programming",
-    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder."
+    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.\n\n\n\n\nNotice the difference between the original “Driver” and “Navigator”."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
