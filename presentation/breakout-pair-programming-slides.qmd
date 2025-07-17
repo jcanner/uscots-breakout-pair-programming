@@ -35,7 +35,10 @@ Find someone with whom you have **three** things in common (that do not include 
 
 ## Pair Programming
 
-Programmers alternate who is the “driver,” responsible for designing, typing the code, and having control over the shared resource (e.g., computer, mouse, and keyboard), and the “navigator,” responsible for providing support to identify errors, offer ideas, or opportunities for improvement (Williams and Kessler, 2002). 
+Programmers alternate who is the “driver” and "navigator" (Williams and Kessler, 2002)
+
+- **The Driver** is responsible for designing, typing the code, and having control over the shared resource (e.g., computer, mouse, and keyboard)  
+- **The “navigator”** is responsible for providing support to identify errors, offer ideas, or opportunities for improvement. 
 
 ## Pair Programming Challenges
 
@@ -50,7 +53,7 @@ Programmers alternate who is the “driver,” responsible for designing, typing
 
 ## Training Students in Equitable Collaboration
 
-Complex Instruction as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997). 
+**Complex Instruction** as a pedagogy focuses on practices that create structures, protocols, and norms that attend to the ways that status characteristics lead to unequal power and participation (Cohen et al., 1997). 
 
 ![](images/complex instruction.png){fig-alt="Triangle with teacher at top, Student in the left corner and Content in the right corner, with two-way arrows pointing between each. An arrow pointing from the Teacher to the middle of the arrow between Content and Student states 'Manage'."}
 
