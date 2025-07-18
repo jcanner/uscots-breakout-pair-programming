@@ -4,7 +4,7 @@ subtitle: "USCOTS 2025 Breakout Session"
 format: html
 ---
 
-![](images/r-flowers.png){fig-alt=""}
+![Artwork by Allison Horst](images/r-flowers.png){fig-alt=""}
 
 ## Details
 
