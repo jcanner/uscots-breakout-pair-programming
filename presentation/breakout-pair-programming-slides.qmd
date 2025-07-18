@@ -21,6 +21,12 @@ format:
   - Discussion
 - Classroom Integration
 
+## Access Slides and Activities
+
+(https://bit.ly/uscot-pairs)
+
+![](images/qrcode.png){fig-align="center"}
+
 ## Ice-Breaker
 
 Find someone with whom you have **three** things in common (that do not include Statistics/Academia).

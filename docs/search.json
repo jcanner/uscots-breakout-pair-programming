@@ -3,8 +3,15 @@
     "objectID": "presentation/breakout-pair-programming-slides.html#overview",
     "href": "presentation/breakout-pair-programming-slides.html#overview",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "",
-    "text": "Pair Programming\nEstablishing Equitable Participation\n\nBroken Circles Activity\nDiscussion\nPair Programming Activity\nDiscussion\n\nClassroom Integration"
+    "section": "Overview",
+    "text": "Overview\n\nPair Programming\nEstablishing Equitable Participation\n\nBroken Circles Activity\nDiscussion\nPair Programming Activity\nDiscussion\n\nClassroom Integration"
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#access-slides-and-activities",
+    "href": "presentation/breakout-pair-programming-slides.html#access-slides-and-activities",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "Access Slides and Activities",
+    "text": "Access Slides and Activities\n(https://bit.ly/uscot-pairs)"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ice-breaker",
@@ -81,14 +88,14 @@
     "href": "presentation/breakout-pair-programming-slides.html#roles-in-pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Roles in Pair Programming",
-    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.\n\n\n\n\n\nNotice the difference between the original “Driver” and “Navigator”."
+    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.\n\n\n\n\nNotice the difference between the original “Driver” and “Navigator”."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
     "href": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "ggplot2 Review",
-    "text": "ggplot2 Review\nComplete this template to build a basic graphic:\n\nggplot(\n  data = &lt;DATA&gt;, \n  mapping = aes(&lt;MAPPINGS&gt;)\n  ) +\n  &lt;GEOM FUNCTION&gt;() + \n  any other arguments...\n\n. . .\nNotice, every + adds another layer to our graphic.\n. . ."
+    "text": "ggplot2 Review\nComplete this template to build a basic graphic:\n\nggplot(\n  data = &lt;DATA&gt;, \n  mapping = aes(&lt;MAPPINGS&gt;)\n  ) +\n  &lt;GEOM FUNCTION&gt;() + \n  any other arguments...\n\n\nNotice, every + adds another layer to our graphic."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#using-data-visualization-to-find-the-penguins",
@@ -102,14 +109,14 @@
     "href": "presentation/breakout-pair-programming-slides.html#pair-programming-expectations",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Pair Programming Expectations",
-    "text": "Pair Programming Expectations\n\nDuring your collaboration, you and your partner will alternate between two roles:\n\n. . .\n\n\nDeveloper\n\n\nReads prompt and ensures Coder understands what is being asked.\nTypes the code specified by the Coder into the Quarto document.       \nRuns the code provided by the Coder.\nWorks with Coder to debug the code. \nEvaluates the output.\n\nWorks with Coder to write code comments.\n\n\n\n\n\n\nCoder\n\n\nReads out instructions or prompts\nDirects the Developer what to type.\nTalks with Developer about their ideas. \nManages resources (e.g., cheatsheets, textbook). \nWorks with Developer to debug the code. \nWorks with Developer to write code comments."
+    "text": "Pair Programming Expectations\n\nDuring your collaboration, you and your partner will alternate between two roles:\n\n\n\n\nDeveloper\n\n\nReads prompt and ensures Coder understands what is being asked.\nTypes the code specified by the Coder into the Quarto document.       \nRuns the code provided by the Coder.\nWorks with Coder to debug the code. \nEvaluates the output.\n\nWorks with Coder to write code comments.\n\n\n\n\n\n\nCoder\n\n\nReads out instructions or prompts\nDirects the Developer what to type.\nTalks with Developer about their ideas. \nManages resources (e.g., cheatsheets, textbook). \nWorks with Developer to debug the code. \nWorks with Developer to write code comments."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#section",
     "href": "presentation/breakout-pair-programming-slides.html#section",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "",
-    "text": "Group Norms\n\n\n\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!"
+    "text": "Group Norms\n\n\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-resources",
@@ -208,13 +215,6 @@
     "title": "Presenters",
     "section": "",
     "text": "Judith Canner is a Professor of Statistics in the Department of Mathematics and Statistics at California State University Monterey Bay (CSUMB). She established the Statistics and Data Science Major, Statistics Minor, and the Data Science Minor at CSUMB and she the current Department Chair. In addition to her focus on the growth of the Statistics and Data Science Program at CSUMB, she is also the co-PI on an NSF S-STEM grant to support scholarships for statistics and data science undergraduates, the CA Learning Lab Grant to build faculty development groups in data science, and a NSF iUSE grant to research equitable pair programming pedagogy in the data science classroom. In her free time, she enjoys hiking, camping, and learning Spanish.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAllison Theobold is an Assistant Professor of Statistics at Cal Poly, where they teach statistics and data science across undergraduate and graduate programs. Allison is the PI on an NSF iUSE grant studying equitable pair programming pedagogy and is a co-PI on an internal Cal Poly grant focused on building a course sequence for statistical computing in R. Outside of work, Allison enjoys running and biking in San Luis Obispo, watching women’s basketball, and sipping cortados."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "group-tasks/pair-programming-norms.html",
@@ -327,12 +327,5 @@
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Description",
     "text": "Description\nSTEM classrooms act as disciplinary communities and students’ sense of belonging within classrooms is directly associated with their dispositions towards a particular field. Yet, high attrition rates for students with marginalized identities suggest students may not feel a sense of belonging in STEM disciplines. Group work is one method of supporting student’s engagement and sense of belonging in undergraduate classrooms. In Computer Science education, pair programming is a recommended pedagogical tool for enhancing students’ learning and sense of belonging. However, research has found that pair programming can also be subject to inequitable interactions, contribute to disparities of power and status, and squelch some students’ opportunities to learn and develop discipline-based identities. In this session, participants will engage with collaborative protocols and activities (both programming and norm establishing) developed to foster equitable collaborations. We will outline findings from our research to motivate how we developed and revised these protocols based on the collaborative experiences of students with marginalized identities. Participants will also engage in discussions around challenges and questions about implementation within their own classrooms. This session is intended for anyone currently using or interested in using collaborative programming in their course(s), but may also be useful for instructors employing group collaborations in non-programming contexts. Portions of the session will require attendees to have access to a laptop, and a basic understanding of R (e.g. RMarkdown/Quarto, dplyr, ggplot2).\n\n\n\n\n\n\nThis material is based upon work supported by the National Science Foundation under Grant Numbers #2334989 and #2334988. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation."
-  },
-  {
-    "objectID": "presentation/breakout-pair-programming-slides.html",
-    "href": "presentation/breakout-pair-programming-slides.html",
-    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "",
-    "text": "Pair Programming\nEstablishing Equitable Participation\n\nBroken Circles Activity\nDiscussion\nPair Programming Activity\nDiscussion\n\nClassroom Integration"
   }
 ]
