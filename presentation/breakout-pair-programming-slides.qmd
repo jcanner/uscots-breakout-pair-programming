@@ -21,6 +21,13 @@ format:
   - Discussion
 - Classroom Integration
 
+## Access Slides and Activities
+
+<https://bit.ly/uscot-pairs>
+
+![](images/qrcode.png){fig-align="center"}
+
+
 # Ice-Breaker
 
 Find someone with whom you have **three** things in common (that **do not** include Statistics / Academia).
@@ -47,8 +54,6 @@ Programmers alternate who is the “driver” and "navigator" (Williams and Kess
 - **Power & Authority**: Who speaks and whose voice is are recognized are indicative of power and status (Chiu & Khoo, 2003; Esmonde, 2009; Mulryan, 1994).
 
 - **Marginalized Identities**: The oppression students with marginalized identities when collaborating with peers in the mathematics classroom (Leyva et al., 2021) impact the development of students’ mathematical identities (Langer-Osuna, 2011; 2016). 
-
-
 
 
 ## Training Students in Equitable Collaboration
