@@ -20,7 +20,7 @@ Judith Canner is a Professor of Statistics in the Department of Mathematics and 
 
 ![](images/Allison_Theobold.jpg){fig-align="left" fig-alt="A picture of Allison Theobold" class="rounded-circle"}
 
-Allison Theobold is an Assistant Professor of Statistics at Cal Poly, where they teach statistics and data science across undergraduate and graduate programs. Allison’s research focuses on educational environments that support students’ disciplinary identities and data science learning pathways. Outside of work, Allison enjoys running and biking in San Luis Obispo, watching women’s basketball, and sipping cortados.
+Allison Theobold is an Assistant Professor of Statistics at Cal Poly, where they teach statistics and data science across undergraduate and graduate programs. Allison is the PI on an NSF iUSE grant studying equitable pair programming pedagogy and is a co-PI on an internal Cal Poly grant focused on building a course sequence for statistical computing in R. Outside of work, Allison enjoys running and biking in San Luis Obispo, watching women’s basketball, and sipping cortados.
 
 :::
 
