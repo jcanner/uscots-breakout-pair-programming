@@ -5,8 +5,7 @@ format: html
 
 
 ::: {.callout-warning}
-Note that these role and norm descriptions represent the pair programming protocols used in our 2024-2025 pilot. New protocols may be available.
-
+Note that these role and norm descriptions represent the pair programming protocols used in our 2024-2025 pilot. New protocols may be available! Please reach out to Judith or Allison for an update!
 :::
 
 
