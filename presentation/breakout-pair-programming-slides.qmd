@@ -23,7 +23,9 @@ format:
 
 ## Access Slides and Activities
 
-<https://bit.ly/uscot-pairs>
+::: {layout-align="center"}
+[bit.ly/uscot-pairs](https://bit.ly/uscot-pairs){align="center"}
+:::
 
 ![](images/qrcode.png){fig-align="center"}
 
