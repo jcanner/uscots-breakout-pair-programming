@@ -4,6 +4,8 @@ title: "PA 3 Task Card - Using Data Visualization to Find the Penguins"
 
 ```{r}
 #| echo: false
+#| message: false
+#| warning: false
 
 library(tidyverse)
 library(palmerpenguins)
@@ -84,14 +86,17 @@ these lines.
 ggplot(data = penguins, 
        mapping = aes(x = species, 
                      fill = species)) +
-# use fill instead of color to get the bars filled entirely with color (instead of just on the outside)
+# use fill instead of color to get the bars filled entirely with color
+# (instead of just on the outside)
   
   geom_bar() +
   labs(x = "", 
        y = "", 
        title = "Number of Penguins Captured in the Palmer Archipelago") +
-# remove axis titles and put that information in the title where it is easier to read
+# remove axis titles and put that information in the title
+# this makes the plot easier to read
   
   theme(legend.position = "none")
-# to remove the legend position, since the fill information is already included on the x-axis
+# to remove the legend position
+# the fill information is already included on the x-axis
 ```

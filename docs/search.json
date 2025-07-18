@@ -137,7 +137,7 @@
     "href": "group-tasks/week-4/pa-3-task-card.html",
     "title": "PA 3 Task Card - Using Data Visualization to Find the Penguins",
     "section": "",
-    "text": "── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nAttaching package: 'palmerpenguins'\n\n\nThe following objects are masked from 'package:datasets':\n\n    penguins, penguins_raw\nToday you will be exploring different types of visualizations to uncover which species of penguins reside on different islands.\nThis task is complex. It requires many different types of abilities. Everyone will be good at some of these abilities but nobody will be good at all of them. In order to solve this puzzle, you will need to use the skills of each member of your group."
+    "text": "Today you will be exploring different types of visualizations to uncover which species of penguins reside on different islands.\nThis task is complex. It requires many different types of abilities. Everyone will be good at some of these abilities but nobody will be good at all of them. In order to solve this puzzle, you will need to use the skills of each member of your group."
   },
   {
     "objectID": "group-tasks/week-4/pa-3-task-card.html#group-roles",
@@ -165,7 +165,7 @@
     "href": "group-tasks/week-4/pa-3-task-card.html#well-documented-code",
     "title": "PA 3 Task Card - Using Data Visualization to Find the Penguins",
     "section": "Well Documented Code",
-    "text": "Well Documented Code\nInclude a comment at the beginning of the code chunk that briefly states the purpose of the chunk (comments come after # signs). In addition, if your code involves many steps or steps you needed to look up / get help on, I would encourage you to write a code comment on what is happening in these lines.\n\nggplot(data = penguins, \n       mapping = aes(x = species, \n                     fill = species)) +\n# use fill instead of color to get the bars filled entirely with color (instead of just on the outside)\n  \n  geom_bar() +\n  labs(x = \"\", \n       y = \"\", \n       title = \"Number of Penguins Captured in the Palmer Archipelago\") +\n# remove axis titles and put that information in the title where it is easier to read\n  \n  theme(legend.position = \"none\")\n# to remove the legend position, since the fill information is already included on the x-axis"
+    "text": "Well Documented Code\nInclude a comment at the beginning of the code chunk that briefly states the purpose of the chunk (comments come after # signs). In addition, if your code involves many steps or steps you needed to look up / get help on, I would encourage you to write a code comment on what is happening in these lines.\n\nggplot(data = penguins, \n       mapping = aes(x = species, \n                     fill = species)) +\n# use fill instead of color to get the bars filled entirely with color\n# (instead of just on the outside)\n  \n  geom_bar() +\n  labs(x = \"\", \n       y = \"\", \n       title = \"Number of Penguins Captured in the Palmer Archipelago\") +\n# remove axis titles and put that information in the title\n# this makes the plot easier to read\n  \n  theme(legend.position = \"none\")\n# to remove the legend position\n# the fill information is already included on the x-axis"
   },
   {
     "objectID": "group-tasks/week-1/broken-circles.html",
@@ -221,7 +221,7 @@
     "href": "group-tasks/pair-programming-norms.html",
     "title": "Pair Programming Roles",
     "section": "",
-    "text": "Warning\n\n\n\nNote that these role and norm descriptions represent the pair programming protocols used in our 2024-2025 pilot. New protocols may be available.\nDuring our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles as directed:"
+    "text": "Warning\n\n\n\nNote that these role and norm descriptions represent the pair programming protocols used in our 2024-2025 pilot. New protocols may be available! Please reach out to Judith or Allison for an update!\nDuring our in-class activities, you will be paired with another student. When completing the activity, you will rotate between the following roles as directed:"
   },
   {
     "objectID": "group-tasks/pair-programming-norms.html#group-norms",
