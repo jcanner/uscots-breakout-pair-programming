@@ -131,7 +131,7 @@ What behaviors encourage equitable participation?
 
 ## Evaluating Group Participation
 
-How do we know our group is engaging in equtiable participation?
+How do we know our group is engaging in equitable participation?
 
 ::: {.incremental}
 
@@ -374,7 +374,7 @@ Every group should have a **ggplot2** cheatsheet!
 
 - How does fit within your current classes/teaching?
 - How do you think this would help your students learn programming?
-- What challenges do you forsee? 
+- What challenges do you foresee? 
 - What opportunities does this provide?
 
 # Thank you!
