@@ -23,12 +23,11 @@ format:
 
 ## Access Slides and Activities
 
-::: {layout-align="center"}
-[bit.ly/uscot-pairs](https://bit.ly/uscot-pairs){align="center"}
-:::
+::: {.centered}
+[[bit.ly/uscots-pairs](https://bit.ly/uscot-pairs)]{.large}
 
 ![](images/qrcode.png){fig-align="center"}
-
+:::
 
 # Ice-Breaker
 
@@ -361,7 +360,7 @@ Every group should have a **ggplot2** cheatsheet!
 - Column 4: creating plots for one discrete or one continuous variable
 :::
 
-![](images/ggplot-cheatsheet.png){fig-alt="A picture of the front page of the ggplot2 cheatsheet, which contains helpful information on assembling a variety of visualizations all using the ggplot2 package." width=60%}
+![](images/ggplot-cheatsheet-front.png){fig-alt="A picture of the front page of the ggplot2 cheatsheet, which contains helpful information on assembling a variety of visualizations all using the ggplot2 package." width=60%}
 :::
 
 ::: {.column width="2%"}

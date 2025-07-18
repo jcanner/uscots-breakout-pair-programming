@@ -11,14 +11,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#access-slides-and-activities",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Access Slides and Activities",
-    "text": "Access Slides and Activities\n\nbit.ly/uscot-pairs"
-  },
-  {
-    "objectID": "presentation/breakout-pair-programming-slides.html#ice-breaker",
-    "href": "presentation/breakout-pair-programming-slides.html#ice-breaker",
-    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "Ice-Breaker",
-    "text": "Ice-Breaker\nFind someone with whom you have three things in common (that do not include Statistics/Academia)."
+    "text": "Access Slides and Activities\n\nbit.ly/uscots-pairs"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#pair-programming-history",
@@ -53,14 +46,21 @@
     "href": "presentation/breakout-pair-programming-slides.html#complex-instruction",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Complex Instruction",
-    "text": "Complex Instruction\n\nRoles & NormsGroup-worthy TasksStatus & Accountability\n\n\n\nDevelop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation\n\n\n\n\nProvide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.\n\n\n\n\nAttending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding."
+    "text": "Complex Instruction\n\nRoles & NormsGroup-worthy TasksStatus & Accountability\n\n\nDevelop autonomy of and interdependence of small groups through the use of norms, roles and other structures of participation\n\n\nProvide curricular activities that are open-ended, rich in multiple abilities, and support learning important math concepts and skills central to a big idea.\n\n\nAttending to the status of individuals through instructor who manages status and holds individuals and small groups accountable for participation and understanding."
+  },
+  {
+    "objectID": "presentation/breakout-pair-programming-slides.html#broken-circles",
+    "href": "presentation/breakout-pair-programming-slides.html#broken-circles",
+    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
+    "section": "Broken Circles",
+    "text": "Broken Circles\nGoal\nYour group is finished once everyone has a complete circle.\n\nRules\n\nNo talking or other noises!\nNo pointing or hand signals!\nNo taking pieces. You may only give pieces to others."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#broken-circles-discussion",
     "href": "presentation/breakout-pair-programming-slides.html#broken-circles-discussion",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Broken Circles Discussion",
-    "text": "Broken Circles Discussion\n\nWhat do you think this game was about? What was its purpose?\nWhat did your group did that made you cooperate more successfully?\nWhat did your group did that made cooperation harder?\nWhat are some behaviors that could be implemented in the future to make cooperation easier?"
+    "text": "Broken Circles Discussion\n\n\nWhat do you think this game was about? What was its purpose?\nWhat did your group did that made you cooperate more successfully?\nWhat did your group did that made cooperation harder?\nWhat are some behaviors that could be implemented in the future to make cooperation easier?"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#establishing-norms",
@@ -74,7 +74,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#equitable-participaiton-training-procedures",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Equitable Participaiton Training Procedures",
-    "text": "Equitable Participaiton Training Procedures\nWhat behaviors encourage equitable participation?\n\n\nSay your own ideas\nListen to others\nGive everyone a chance to talk\nAsk others for their ideas\nGive reasons for your ideas and discuss any and every different idea"
+    "text": "Equitable Participaiton Training Procedures\nWhat behaviors encourage equitable participation?\n\n\nSay your own ideas\nListen to others\nGive everyone a chance to talk\nAsk others for their ideas\nGive reasons for your ideas\nDiscuss (and be open to!) ways your ideas might differ"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#evaluating-group-participation",
@@ -88,14 +88,14 @@
     "href": "presentation/breakout-pair-programming-slides.html#roles-in-pair-programming",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Roles in Pair Programming",
-    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.\n\n\n\n\nNotice the difference between the original “Driver” and “Navigator”."
+    "text": "Roles in Pair Programming\n\n\nCoder: Proposes Solution Strategies\n\n\nReads out instructions or prompts\nDirects the Developer what to type in the Quarto document in RStudio\nTalks with Developer about ideas related to ways they could solve the problem.\nManages resources (e.g., cheatsheets, textbook) for aiding in solution strategy.\n\n\n\n\nDeveloper: Evaluates Solution Strategies\n\n\nAsks the instructor group questions.\nTypes the code specified by the Coder into the Quarto document.\nListens carefully, asks the Coder to repeat statements if needed, or to slow down.\nEncourages the Coder to vocalize their thinking.\nAsks the Coder clarifying questions.\nRuns the code provided by the Coder.\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\nNotice the difference between the original “Driver” and “Navigator” from pair programming!"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
     "href": "presentation/breakout-pair-programming-slides.html#ggplot2-review",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "ggplot2 Review",
-    "text": "ggplot2 Review\nComplete this template to build a basic graphic:\n\nggplot(\n  data = &lt;DATA&gt;, \n  mapping = aes(&lt;MAPPINGS&gt;)\n  ) +\n  &lt;GEOM FUNCTION&gt;() + \n  any other arguments...\n\n\nNotice, every + adds another layer to our graphic."
+    "text": "ggplot2 Review\nComplete this template to build a basic graphic:\n\n\nggplot(\n  data = &lt;DATA&gt;, \n  mapping = aes(&lt;MAPPINGS&gt;)\n  ) +\n  &lt;GEOM FUNCTION&gt;() + \n  other arguments...\n\n\n\nNotice, every + adds another layer to our graphic."
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#using-data-visualization-to-find-the-penguins",
@@ -109,21 +109,14 @@
     "href": "presentation/breakout-pair-programming-slides.html#pair-programming-expectations",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Pair Programming Expectations",
-    "text": "Pair Programming Expectations\n\nDuring your collaboration, you and your partner will alternate between two roles:\n\n\n\n\nDeveloper\n\n\nReads prompt and ensures Coder understands what is being asked.\nTypes the code specified by the Coder into the Quarto document.       \nRuns the code provided by the Coder.\nWorks with Coder to debug the code. \nEvaluates the output.\n\nWorks with Coder to write code comments.\n\n\n\n\n\n\nCoder\n\n\nReads out instructions or prompts\nDirects the Developer what to type.\nTalks with Developer about their ideas. \nManages resources (e.g., cheatsheets, textbook). \nWorks with Developer to debug the code. \nWorks with Developer to write code comments."
-  },
-  {
-    "objectID": "presentation/breakout-pair-programming-slides.html#section",
-    "href": "presentation/breakout-pair-programming-slides.html#section",
-    "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "",
-    "text": "Group Norms\n\n\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\nNo cross-talk with other groups.\nCommunicate with each other!"
+    "text": "Pair Programming Expectations\n\nDuring your collaboration, you and your partner will alternate between two roles:\n\n\n\n\nDeveloper\n\n\nReads prompt and ensures Coder understands what is being asked.\nTypes the code specified by the Coder into the Quarto document.       \nRuns the code provided by the Coder.\nWorks with Coder to debug the code. \nEvaluates the output.\n\nWorks with Coder to write code comments.\n\n\n\n\n\n\nCoder\n\n\nReads out instructions or prompts\nDirects the Developer what to type.\nTalks with Developer about their ideas. \nManages resources (e.g., cheatsheets, textbook). \nWorks with Developer to debug the code. \nWorks with Developer to write code comments.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGroup Norms\n\n\n\n\n\nThink and work together. Do not divide the work.\nYou are smarter together.\nBe open minded.\n\n\n\nNo cross-talk with other groups.\nCommunicate with each other!"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#ggplot2-resources",
     "href": "presentation/breakout-pair-programming-slides.html#ggplot2-resources",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "ggplot2 Resources",
-    "text": "ggplot2 Resources\nEvery group should have a ggplot2 cheatsheet!\n\n\n\nOn the Front\n\n\n\nColumn 1: the “template” for making a ggplot\nColumn 3: creating plots for two continuous variables\nColumn 4: creating plots for one discrete or one continuous variable\n\n\n\n\n\n\n\n\nOn the Back\n\n\n\nColumn 4: adding facets and labels to your plot\nColumn 3: adding themes to your plot (if you have extra time)"
+    "text": "ggplot2 Resources\nEvery group should have a ggplot2 cheatsheet!\n\n\n\nOn the Front\n\n\nColumn 1: the “template” for making a ggplot\nColumn 3: creating plots for two continuous variables\nColumn 4: creating plots for one discrete or one continuous variable\n\n\n\n\n\n\n\nOn the Back\n\n\nColumn 4: adding facets and labels to your plot\nColumn 3: adding themes to your plot (if you have extra time)"
   },
   {
     "objectID": "presentation/breakout-pair-programming-slides.html#discussion",
@@ -137,7 +130,7 @@
     "href": "presentation/breakout-pair-programming-slides.html#think-about-your-classes",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
     "section": "Think about your classes…",
-    "text": "Think about your classes…\n\nHow does fit within your current classes/teaching?\nHow do you think this would help your students learn programming?\nWhat challenges do you foresee?\nWhat opportunities does this provide?"
+    "text": "Think about your classes…\n\nHow does fit within your current classes / teaching?\nHow do you think this would help your students learn programming?\nWhat challenges do you foresee?\nWhat opportunities does this provide?"
   },
   {
     "objectID": "group-tasks/week-4/pa-3-task-card.html",
@@ -315,11 +308,11 @@
     "text": "Step 8: Adding Another Categorical Variable\nBuilding off of the plot you made in Step 7, add the location of the penguins ( island) to your visualization. There may be more than one method to address this, however, one method will more easily allow you to address the questions below."
   },
   {
-    "objectID": "index.html#details",
-    "href": "index.html#details",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Research-Based Practices for Integrating Pair Programming in the Classroom",
-    "section": "Details",
-    "text": "Details\nLocation: Gerdin 0129, Iowa State University\nDate: Friday, July 18, 2025\nTime: 2:45pm - 4:00pm CT"
+    "section": "",
+    "text": "Artwork by Allison Horst"
   },
   {
     "objectID": "index.html#description",
