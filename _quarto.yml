@@ -9,7 +9,7 @@ website:
   page-navigation: true
   title: "Research-Based Practices for Integrating Pair Programming in the Classroom"
   description: "Materials for USCOTS 2025 breakout session on pair programming"
-  site-url: "https://github.com/jcanner/uscots-breakout-pair-programming"
+  site-url: "https://jcanner.github.io/uscots-breakout-pair-programming"
   repo-url: https://github.com/jcanner/uscots-breakout-pair-programming
   repo-actions: [issue]
 
@@ -36,7 +36,7 @@ website:
 
     right: 
       - icon: github
-        href: https://github.com/atheobold/uscots-intermediate-r
+        href: https://github.com/jcanner/uscots-breakout-pair-programming
       
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."

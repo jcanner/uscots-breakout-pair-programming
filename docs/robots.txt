@@ -1,1 +1,1 @@
-Sitemap: https://github.com/jcanner/uscots-breakout-pair-programming/sitemap.xml
+Sitemap: https://jcanner.github.io/uscots-breakout-pair-programming/sitemap.xml
